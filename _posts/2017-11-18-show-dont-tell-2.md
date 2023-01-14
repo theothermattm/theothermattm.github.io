@@ -5,7 +5,7 @@ date: '2017-11-18T11:00:36+00:00'
 author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=214'
-permalink: /show-dont-tell-2/
+permalink: /show-dont-tell/
 categories:
     - career
 ---

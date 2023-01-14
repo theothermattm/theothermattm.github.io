@@ -1,6 +1,6 @@
 ---
 id: 159
-title: 'Don&#8217;t Forget:  Keep the Web Simple'
+title: "Don't Forget:  Keep the Web Simple"
 date: '2015-10-09T00:26:20+00:00'
 author: theothermattm
 layout: post

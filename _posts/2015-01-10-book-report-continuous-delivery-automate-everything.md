@@ -1,6 +1,6 @@
 ---
 id: 78
-title: 'Book Report: &#8220;Continuous Delivery&#8221; &#8211; Automate Everything!'
+title: 'Book Report: "Continuous Delivery" Automate Everything!'
 date: '2015-01-10T21:04:03+00:00'
 author: theothermattm
 layout: post

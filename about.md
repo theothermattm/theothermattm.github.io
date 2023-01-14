@@ -7,13 +7,13 @@ layout: page
 guid: 'https://code.theothermattm.com/?page_id=4'
 ---
 
-<a href="https://code.theothermattm.com/wp-content/uploads/2014/12/matt-millerlitehat-sq.jpg"><img class="alignnone size-medium wp-image-5" src="https://code.theothermattm.com/wp-content/uploads/2014/12/matt-millerlitehat-sq-270x300.jpg" alt="Matt" width="270" height="300" /></a> 
+I've been working with software development since 2006 in a variety of roles from support to team lead, to architect, to manager, etc.
 
-I've been working with software development since 2006 in a variety of roles from support to team lead.
+I tend to lean towards Cloud Engineering, Backend/API/serverside development. I've done quite a bit of work in Node.js and Javascript, but love lots of other languages. I'm also a bit of a database nerd.
 
-Most of my work has been in server-side Java, however, I've also done plenty of work on the front end side of the web as well.
+I also enjoy photography. You can see some of my stuff [on Flickr](http://flickr.com/theothermattm)
 
-In my current role, I'm writing applications and services in Node.js and AngularJS.
+My [LinkedIn](https://www.linkedin.com/in/theothermattm/)
 
-I also enjoy photography. You can see some of my stuff <a title="on flickr" href="http://flickr.com/theothermattm" target="_blank">on Flickr</a>
+My [Github](https://github.com/theothermattm)
 
