@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://code.theothermattm.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://code.theothermattm.com/" rel="alternate" type="text/html" /><updated>2023-01-14T22:48:30-05:00</updated><id>https://code.theothermattm.com/feed.xml</id><title type="html">Matt @ Work</title><subtitle>Clean Code + Coffee == Happy Developers </subtitle><entry><title type="html">Having Kids Made Me A Better Developer</title><link href="https://code.theothermattm.com/having-kids-made-me-a-better-developer/" rel="alternate" type="text/html" title="Having Kids Made Me A Better Developer" /><published>2021-04-22T10:03:16-04:00</published><updated>2021-04-22T10:03:16-04:00</updated><id>https://code.theothermattm.com/having-kids-made-me-a-better-developer</id><content type="html" xml:base="https://code.theothermattm.com/having-kids-made-me-a-better-developer/"><![CDATA[<!-- wp:paragraph -->
+<p>About 8 years ago, I started the biggest journey of my life: Having kids. Before my wife and I had our first child, to say I was anxious is an understatement.  Of course I was happy too, but a lot of the time my thoughts would clash between things like "Will she be healthy and have two arms and legs?" and "How will I function with no sleep!?". It was a constant tug of war between selfless and selfish thoughts, causing spirals of anxiety for me.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As a software geek, I kept thinking about the amazing article Jeff Atwood wrote called "<a href="https://blog.codinghorror.com/on-parenthood/" target="_blank" rel="noreferrer noopener" title="https://blog.codinghorror.com/on-parenthood/">On Parenthood</a>" where he presents one of the best data visualizations I've ever seen related to the raising of children.
+
+
+<br /><br />
+
+<img src="../img/coding-horror-kids.png" width="350" />
+
+
+<br /><br />
+
+After our daughter arrived and we spent our maternity/paternity leave groggy and caring for a beautiful new infant,  we settled into the rhythm of having a newborn.  We got used to losing sleep and started making sacrifices for ourselves for this new bundle of joy.  We did this without a second thought.  It just happens, and when you're in it, you're in it.  Looking back on it, the anticipation of having a newborn was actually much worse than having a newborn!  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>But, after a few months, something happened that I didn't expect.  <em>Everything else got easier.</em><br /><br />Drama with friends?  Whatever, I don't have time for that, I've got a baby to take care of! Drama at work? Ergh, I'll keep my head above the fray - I need to focus on work so I can get home and take care of the baby!  Should I use NoSQL or relational databases at work? </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>It's that last one I want to talk about a little more.  This is the type of decision I would pontificate endlessly over.  I'm a consensus-seeker too, so my own internal gnashing of teeth would be amplified by asking for others' opinions. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>But after my first was born, the answer to these types of questions came a <em>lot</em> more quickly.  In the case of SQL vs NoSQL, for instance: "Well, this seems like a wash, so I'll just pick the one I'm familiar with and get the job done, so I can spend more time with my family."<br /><br />This decision-making process could sound like a bad thing - Like i'm cutting corners because I want to spend time with my family.  Honorable on a personal level, but negligent professionally.  Maybe, but I know that I would never be negligent about making a decision, it's just not in my nature.  But knowing that a beautiful living being was waiting for me at home really forced me to (subconsciously) make a decision a lot quicker.  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>It got even more crisp when my son was born four years later!<br /><br />With some hindsight:  This type of pressure is the best thing that has happened to me both personally and professionally.<br /><br />It has forced me to become a much more crisp and quick decision-maker.  It forces me to prioritize <em>getting things done</em> over <em>making things perfect</em>.  It has also made me more scrupulous about when attention to detail and striving for perfection is important, and when it's not.  And finally, it has forced me to become well versed in <a href="https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137404" target="_blank" rel="noreferrer noopener" title="https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137404">Essentialism </a>and the subtle art of saying "No" to things.  It's amazing how much better your life becomes when you become comfortable with saying no.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As a Software Development manager, all of this also has positive effects for my teams as well - I'm much more comfortable delegating decisions to them. Being judicious with my time forces me to let those who are <em>closest to the problem at hand</em> make the decisions. Of course, I always want to be informed, but I make it clear that my input shouldn't hold them up. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I have found that often in the world of software, shipped is better than perfect.  Feedback from users is better than spending time and money making something that may not be used by anyone.  My kids helped me realize that and I thank them for it.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><br /><br /></p>
+<!-- /wp:paragraph -->]]></content><author><name>theothermattm</name></author><category term="career" /><summary type="html"><![CDATA[About 8 years ago, I started the biggest journey of my life: Having kids. Before my wife and I had our first child, to say I was anxious is an understatement. Of course I was happy too, but a lot of the time my thoughts would clash between things like "Will she be healthy and have two arms and legs?" and "How will I function with no sleep!?". It was a constant tug of war between selfless and selfish thoughts, causing spirals of anxiety for me.]]></summary></entry><entry><title type="html">Announcing My New Business</title><link href="https://code.theothermattm.com/announcing-my-new-business/" rel="alternate" type="text/html" title="Announcing My New Business" /><published>2021-04-01T08:53:00-04:00</published><updated>2021-04-01T08:53:00-04:00</updated><id>https://code.theothermattm.com/announcing-my-new-business</id><content type="html" xml:base="https://code.theothermattm.com/announcing-my-new-business/"><![CDATA[<!-- wp:paragraph -->
+<p>I'm happy to announce that I've started a new business.  This is a side gig right now, but once this takes off, I expect to become independently wealthy from it.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>:drumroll: Announcing.....</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"large"} -->
+<p class="has-large-font-size"><a href="https://jvm-jargon-generator.herokuapp.com/" target="_blank" rel="noreferrer noopener" title="https://jvm-jargon-generator.herokuapp.com/">The JVM Jargon Generator</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Years of toiling away with Java Virtual Machine (JVM) technologies made me realize that the only thing that really matters when developing in the JVM space is that you can <em>intelligently talk about it</em>.  These complex projects rarely get deployed to production or used by users, so it's usually sufficient to just have a headline and be able to talk circles around your businesspeople to confuse them.  Then, you can go have a beer.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Written in state of the art Kotlin using complex AI (if/else blocks and switch statements) it is truly a groundbreaking piece of technology.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please send me copious amounts of money so I can buy a beach house and retire.  Thanks!</p>
+<!-- /wp:paragraph -->]]></content><author><name>theothermattm</name></author><category term="coding" /><summary type="html"><![CDATA[I'm happy to announce that I've started a new business. This is a side gig right now, but once this takes off, I expect to become independently wealthy from it.]]></summary></entry><entry><title type="html">I’m a Computer Science Dropout</title><link href="https://code.theothermattm.com/im-a-computer-science-dropout/" rel="alternate" type="text/html" title="I’m a Computer Science Dropout" /><published>2021-01-13T14:42:44-05:00</published><updated>2021-01-13T14:42:44-05:00</updated><id>https://code.theothermattm.com/im-a-computer-science-dropout</id><content type="html" xml:base="https://code.theothermattm.com/im-a-computer-science-dropout/"><![CDATA[<!-- wp:paragraph -->
+<p>... And my job is to develop software. I have an IT-related degree, but not in Computer Science.  I used to feel ashamed of this.  But losing some brown hair and gaining some grey hair (and <em>losing</em> a lot of hair in general) has taught me that a CS degree doesn't make you a good developer.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Some of the most brilliant software engineers I have worked with in my career have been art, history or philosophy majors.  And with some hindsight, this makes total sense - Software and coding is mostly art and part science.  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I've been known to get on a soapbox and tell others that I believe the majority of software developers today are digital plumbers.  And I mean this as a great compliment.  Real plumbers are talented, smart people who do <em>very important work</em> in our society.  They also get paid handsomely for it, much like software developers.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The majority of modern web applications and mobile applications require using pre-existing frameworks and libraries that do a lot of advanced mathematical heavy lifting for you.  If we go back to the plumber analogy:  Guess what don't plumbers <em>don't</em> do? Make pipes. Qualified engineering firms do that. Plumbers are doing the work of installing pipes in people's homes so they can have clean water. This is <em>very important work</em>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As software developers, our frameworks and libraries are our pipes, and we are the plumbers making things happen for real people in real life.  We all should be proud of this.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I am a firm believer that the majority of tech related work does not require advanced science or engineering degrees.  Much like being a plumber doesn't require a college degree, it requires a lot of hands on work and training.  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In software, if you know the basics, you can be a wildly successful developer.  My definition of "the basics" is the following:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Data Structures (Lists, Linked Lists, Sets, Graphs, etc)</li><li>Algorithms (including some basic Big-O analysis)</li><li>HTML/CSS/Javascript:  If you want to be in web at all, even if not, it comes in handy)</li><li>Working knowledge of databases: Basic SQL and general knowledge of different database types and how to interact with them)</li><li>Some object-oriented programming</li><li>Some functional programming</li><li>Working knowledge of the Linux (*nix in general) command line</li><li>Working knowledge of a source control system (I default to Git here nowadays)</li><li>Working knowledge of a scripting language (can't go wrong with <a href="http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html">Bash</a>)</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>You might have to start low on the ladder, but if you know these things you have the tools to work your way up. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If you want to work for a technology pipe-maker (e.g. working on new Machine Learning algorithms or other advanced tech), then yes - you need a Computer Science degree.  And more power to you, my friend.  Those people are extremely valuable in a different way.  Plumbers can't plumb without pipes, right?!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In most software developer jobs, perseverance, attitude and passion for the job are far more important than advanced CS skills.  So is your desire to be part of a team and help others.  So is your desire to build things of quality.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Possibly most important is your creativity and ability to break the mold of existing thought processes to simplify and make things easier.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I also believe that requiring these degrees when hiring is a form of bias.  There are many qualified engineers out there with diverse backgrounds all tech hiring managers should be considering.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Related to this topic, please check out <a rel="noreferrer noopener" href="https://www.nocsdegree.com/" target="_blank">No CS Degree</a> - This site contains a lot of interviews with people who have No CS Degree and share their story. It's inspiring.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If you made it this far, thanks for reading, and I thought I would also take the opportunity to share my own story with having No CS Degree and the impostor syndrome I had for years:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>After taking a few introductory Computer Science courses freshman year in college, I switched majors. I was not interested in learning how to solve math problems with C++ (this was 2001...). I went on to graduate with an IT degree, and really enjoyed my courses and learned quite a bit. The courses were much more practical and focused in terms of delivering results for businesses. In that degree program, I even took a few more programming courses. But I didn't get the theoretical computer science and math background that many developers have.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For a long, long time I was ashamed of this fact. Out of college, my first couple of jobs involved gathering requirements for applications and also acting in "project manager-y" type roles (I wasn't experienced enough to really be a project manager). I fell into coding when I got the chance to work on a team developing a small application. And I found that the handful of programming courses taught me more than enough coding to do well.  And years later, I'm so happy I fell into it and am enjoying the confidence that comes with being older and wiser.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I have never worked on applications that require lighting fast searching of millions of web pages, or heavy mathematical lifting. I write web applications for modest amounts of users and the backends that support them. But even though those applications might not be Facebook or Google, they are important, and the systems are complex because of the amount of integrations with other systems they have.   Keeping those complex systems as simple as possible (as well as the code within them), is a huge challenge in and of itself with a combination of communication and technical challenges.  It's the art, rather than the science of it, that appeals to me.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>And I love all of it.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content><author><name>theothermattm</name></author><category term="career" /><category term="career" /><category term="computer science" /><summary type="html"><![CDATA[... And my job is to develop software. I have an IT-related degree, but not in Computer Science. I used to feel ashamed of this. But losing some brown hair and gaining some grey hair (and losing a lot of hair in general) has taught me that a CS degree doesn't make you a good developer.]]></summary></entry><entry><title type="html">The Goodwill Budget</title><link href="https://code.theothermattm.com/the-goodwill-budget/" rel="alternate" type="text/html" title="The Goodwill Budget" /><published>2020-12-22T10:10:12-05:00</published><updated>2020-12-22T10:10:12-05:00</updated><id>https://code.theothermattm.com/the-goodwill-budget</id><content type="html" xml:base="https://code.theothermattm.com/the-goodwill-budget/"><![CDATA[<!-- wp:paragraph -->
+<p>In college, I would always take advantage of my Professor's office hours whenever I could.  They made themselves available regularly, and gave extra help.  Many times with a smile on their face because someone was actually coming to office hours.  Why <em>wouldn't</em> I take advantage of them? I never understood people why many people didn't.  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Something I learned by semi-regularly attending my professors' office hours is that I would develop a rapport with them which paid off in additional help, tips and just general goodwill towards me.  Was this brown nosing?  I guess it could be construed as that, but I wasn't after better grades.  Most times I was genuinely struggling to grasp a concept from class and needed help.  I was never the type of student to accept "good enough" or "I get <em>most</em> of it."  I always wanted to get everything. As a side benefit to office hour attendance, I developed good relationships with professors which ended up giving me other opportunities outside of class.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I've spent the last couple of years working on client projects at a software agency.  The same approach of going the extra mile to ask a client, or peer, or your manager for their opinion on something, or to communicate a little bit extra with them not only benefits them, but benefits you in the future by building up a <em>Goodwill Budget</em>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I always liked the concept of a <a href="https://web.dev/performance-budgets-101/" data-type="URL" data-id="https://web.dev/performance-budgets-101/">Performance Budget</a> when building web apps.  I think that this idea can apply with your relationships in business (and really anywhere in life).  When you take the time to listen to people, do small, but meaningful extra things for them, and just generally care about the quality of your interactions with them and what you deliver to them, you build up your goodwill budget with that person.  </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>What could you spend your Goodwill Budget on?  One example is that you can use it to stand firm on a point you believe strongly in where the other person disagrees.  For example, maybe you don't think that a feature should make it into the next release, but the the other person does.  How much of a Goodwill Budget do you have with that person?  If you have lots of goodwill points in the bank, the chances are higher that if you argue your point articulately, that they will see your point of view better and end up taking your side.  If your budget is low, the other person's tolerance for your arguments will be much lower.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This also applies to the inevitable mistakes we make as humans.&nbsp; Others are a lot more likely to forgive small mistakes if you have a lot of goodwill to spend.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Just like any budget, you have to plan to save up before you can spend.&nbsp; So, if you just met someone, you can't spend down your budget because you don't have any.&nbsp; It takes some time, kind actions and quality delivery to build up your budget.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As I write this, I'm realizing how something like this could be twisted into some kind of nasty manipulation tool.&nbsp; It shouldn't be.&nbsp; Think of this like some kind of bizarre variant of the golden rule - If others treat you with kindness, communicated well and deliver things of quality to you, won't you be happy?&nbsp; Won't you be more apt to give them grace when a mistake is made or they disagree with you? &nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Spend wisely!</p>
+<!-- /wp:paragraph -->]]></content><author><name>theothermattm</name></author><category term="career" /><category term="management" /><summary type="html"><![CDATA[In college, I would always take advantage of my Professor's office hours whenever I could.  They made themselves available regularly, and gave extra help.  Many times with a smile on their face because someone was actually coming to office hours.  Why wouldn't I take advantage of them? I never understood people why many people didn't.  ]]></summary></entry><entry><title type="html">Software Engineering Culture</title><link href="https://code.theothermattm.com/software-engineering-culture/" rel="alternate" type="text/html" title="Software Engineering Culture" /><published>2019-04-12T20:57:36-04:00</published><updated>2019-04-12T20:57:36-04:00</updated><id>https://code.theothermattm.com/software-engineering-culture</id><content type="html" xml:base="https://code.theothermattm.com/software-engineering-culture/"><![CDATA[<!-- wp:paragraph -->
+<p>An engineering team that is gelling together is a wonderful thing.  There is nothing like watching teams of smart people work together to solve really hard problems.  They're so good at it they make it ... fun! This only happens when they're motivated, empowered to do what they feel is right, and not afraid to push back when they feel they're not doing the right thing.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Getting there is hard.  The usual engineering management guidance is usually about hiring the best people - A players don't do well with C players, etc, etc. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Well, of course.  Who doesn't try to hire the best people?  But, it's really freaking hard to get right!  There's gotta be more to it...</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Spotify was nice enough to share their engineering culture strategy in a couple of videos on their engineering blog a few years back.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Their practical approach, based on learning from things that didn't work, is a breath of fresh air compared to most software management in organizations I've seen. I loved their strategy because it focuses on<em> people first</em> as opposed to metrics and engineering rigor. Of course those things are important, but <em>culture is far more important.</em> Everyone does better when they feel comfortable and empowered.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I've rewatched these videos many times, and recently took the time to take some notes on the second part that I thought I would share.  If you're intrigued by a particular note, you can go to that portion of the video to learn more.  Though, if you have the time definitely watch both videos all the way through.<br /></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>There is also a <a href="https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/">Part&nbsp;1</a>, which is great, but Part 2 has a good overview of it at the beginning, if you're short on time.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2><a href="https://gist.github.com/theothermattm/7d308c7c3c6f5bb21d6bbd44097c7fd3#spotify-engineering-culture-part-2"></a><a href="https://labs.spotify.com/2014/09/20/spotify-engineering-culture-part-2/">Spotify Engineering Culture Part 2</a></h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><li>0:50 - "We aim to make mistakes faster than anyone else" - Fail Fast and Improve Fast.</li><li>1:30 - A "Fail Friendly Environment" - Encourage sharing of failures so everyone can learn from them. Some teams have "Fail walls" showing off their failures.<ul><li>"Failing without learning is well, just failing."</li><li>Not about fault, about what did we learn and what did we change?</li><li>Use of retrospectives is huge.</li></ul></li><li>2:30 - "Limited Blast Radius" - Set things up so that in case something does fail, the failure is bounded and not catastrophic.</li><li>3:20 - "If Everything is under control, you're going too slow." - Mario Andretti</li><li>3:50 - Lean Startup - Use narrative to drive product/ideas</li><li>5:15 - Planning: Innovation &gt; Predictability. Don't focus on timelines unless you absolutely have to. Defer commitments to timelines as long as you responsibly can.</li><li>6:20 - 10% hack time to let people experiment. If we try enough ideas, we're bound to strike gold sometimes. And the learning we get out of it is important.</li><li>7:00 - People are natural innovators, get out of their way.</li><li>7:15 - Experiment friendly culture. Don't punish for experiments, encourage them. Don't overthink things. Just do and see what works.</li><li>9:40 - Growth pains - create a "Minimum Viable Bureaucracy"</li><li>10:25 - Agree on a "Definition of Awesome" before diving in.<ul><li>Awesome is a direction, not a place!</li><li>If we agree on what awesome is, it helps us get there and track it.</li><li>Use improvement Katas (make targets towards awesome).</li></ul></li><li>12:00 - "Healthy Culture Heals broken process"</li><li>12:45 - Culture spreads through storytelling - Blogs, lunch and learns, etc.</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content><author><name>theothermattm</name></author><category term="management" /><category term="culture" /><category term="management" /><summary type="html"><![CDATA[An engineering team that is gelling together is a wonderful thing. There is nothing like watching teams of smart people work together to solve really hard problems. They're so good at it they make it ... fun! This only happens when they're motivated, empowered to do what they feel is right, and not afraid to push back when they feel they're not doing the right thing.]]></summary></entry><entry><title type="html">Show, don’t tell</title><link href="https://code.theothermattm.com/show-dont-tell/" rel="alternate" type="text/html" title="Show, don’t tell" /><published>2017-11-18T06:00:36-05:00</published><updated>2017-11-18T06:00:36-05:00</updated><id>https://code.theothermattm.com/show-dont-tell-2</id><content type="html" xml:base="https://code.theothermattm.com/show-dont-tell/"><![CDATA[<p>During my first few years working in software, I had the opportunity to work with a mentor who had the best approach to introducing new ideas that I’ve seen. The best way I can sum up the approach would be “Show, don’t tell. And don’t be a jerk.”</p>
+
+<p>To give some more context, we worked in an organization where change was widely viewed as something to be feared, rather than something to be embraced. Ideas for change were often met with resistance, especially by management.</p>
+
+<p>The primary way that he worked his magic was through small experiments - with the bulk of the work done on his own time. If there was something that he viewed needed to be changed, he would take a small slice of that problem, and apply the new idea to it. It might not solve the whole problem, but it showed the path toward it. For example, if we had a problem with triaging production issues from messy logs, he might take a crack at changing the styling of alert emails that got sent out to be cleaner (this was before Splunk and other tools). But not everywhere, maybe just in one place on just one of our many applications.</p>
+
+<p>Then, he’d show it to the team to see what they thought. He did this without explicitly  selling the idea - just stating the facts and showing off a working example. Seeing the idea actually working, the team would often embrace it. We also had a working template to start from, should we decide to pursue it. This was a seed that he planted, and if the team decided to nurture it, that idea would grow a life of it’s own with just a little bit of initial effort.</p>
+
+<p>What didn’t happen? Talking about the idea for change before starting. You didn’t hear “I think we need to change X to Y because…” followed by an hour of debate.</p>
+
+<p>I’m guilty of doing this, and it doesn’t work. Talking about an idea for significant change, without action, dooms it from the start. Imaginations run wild and what-if scenarios scurry about like frightened mice. All the time wasted pontificating could be spent doing a small experiment to see if the idea really works.</p>
+
+<p>If you do a change experiment simply, and test it cheaply, chances are you have a lot less to lose than a meeting where the whole team talks for an hour. Paradoxically: if the idea is complex and hard to start on, sometims the best, cheapest experiment to run is a thought experiment and asking people what they think. You have to use good judgement, but avoid the dangers of the hour long debate!</p>
+
+<p>We also can’t forget that people sometimes are apprehensive of change in a team. They’re comfortable working the way they already work. Why would they change? But if you have visible progress on that something works, instead of just words, it’s hard to be afraid of or argue with. Also, don’t forget to hear them out. Why are they resistant? Simply letting people talk through their feelings goes a long way to helping both you and them understand the new idea. They may have very good reasons for feeling as they do.</p>
+
+<p>You have to be prepared for this strategy to fail. You will have ideas that are great and your team just isn’t ready for. Or, you will have terrible ideas that are rejected for good reasons. You cannot get defensive if these experiments do not pan out. <strong>You cannot under any circumstances get upset if those ideas are not embraced immediately.</strong> If they aren’t, try again, softly, with a slightly different experiment.</p>
+
+<p>Many of us in software work with Agile processes, quickly iterating over software features until we hit on what our users want. Think of changing an organization the same way. If it doesn’t work the first time, what can you do better? Was it a problem with your idea, or was it just not communicated successfully? Was your example too small, so that it didn’t really present the power of your idea?</p>
+
+<p>Above all: Don’t be a jerk. Lasting change on a team requires buyin, and that doesn’t happen if you’re not empathetic.</p>
+
+<p>So go out there, do good work and plant some seeds for change in your team.</p>]]></content><author><name>theothermattm</name></author><category term="career" /><summary type="html"><![CDATA[During my first few years working in software, I had the opportunity to work with a mentor who had the best approach to introducing new ideas that I’ve seen. The best way I can sum up the approach would be “Show, don’t tell. And don’t be a jerk.” To give some more context, we worked in an organization where change was widely viewed as something to be feared, rather than something to be embraced. Ideas for change were often met with resistance, especially by management. The primary way that he worked his magic was through small experiments - with the bulk of the work done on his own time. If there was something that he viewed needed to be changed, he would take a small slice of that problem, and apply the new idea to it. It might not solve the whole problem, but it showed the path toward it. For example, if we had a problem with triaging production issues from messy logs, he might take a crack at changing the styling of alert emails that got sent out to be cleaner (this was before Splunk and other tools). But not everywhere, maybe just in one place on just one of our many applications. Then, he’d show it to the team to see what they thought. He did this without explicitly  selling the idea - just stating the facts and showing off a working example. Seeing the idea actually working, the team would often embrace it. We also had a working template to start from, should we decide to pursue it. This was a seed that he planted, and if the team decided to nurture it, that idea would grow a life of it’s own with just a little bit of initial effort. What didn’t happen? Talking about the idea for change before starting. You didn’t hear “I think we need to change X to Y because…” followed by an hour of debate. I’m guilty of doing this, and it doesn’t work. Talking about an idea for significant change, without action, dooms it from the start. Imaginations run wild and what-if scenarios scurry about like frightened mice. All the time wasted pontificating could be spent doing a small experiment to see if the idea really works. If you do a change experiment simply, and test it cheaply, chances are you have a lot less to lose than a meeting where the whole team talks for an hour. Paradoxically: if the idea is complex and hard to start on, sometims the best, cheapest experiment to run is a thought experiment and asking people what they think. You have to use good judgement, but avoid the dangers of the hour long debate! We also can’t forget that people sometimes are apprehensive of change in a team. They’re comfortable working the way they already work. Why would they change? But if you have visible progress on that something works, instead of just words, it’s hard to be afraid of or argue with. Also, don’t forget to hear them out. Why are they resistant? Simply letting people talk through their feelings goes a long way to helping both you and them understand the new idea. They may have very good reasons for feeling as they do. You have to be prepared for this strategy to fail. You will have ideas that are great and your team just isn’t ready for. Or, you will have terrible ideas that are rejected for good reasons. You cannot get defensive if these experiments do not pan out. You cannot under any circumstances get upset if those ideas are not embraced immediately. If they aren’t, try again, softly, with a slightly different experiment. Many of us in software work with Agile processes, quickly iterating over software features until we hit on what our users want. Think of changing an organization the same way. If it doesn’t work the first time, what can you do better? Was it a problem with your idea, or was it just not communicated successfully? Was your example too small, so that it didn’t really present the power of your idea? Above all: Don’t be a jerk. Lasting change on a team requires buyin, and that doesn’t happen if you’re not empathetic. So go out there, do good work and plant some seeds for change in your team.]]></summary></entry><entry><title type="html">Where to start with Node.js as a Java developer in 2017</title><link href="https://code.theothermattm.com/where-to-start-with-node-in-2017/" rel="alternate" type="text/html" title="Where to start with Node.js as a Java developer in 2017" /><published>2017-01-07T16:11:57-05:00</published><updated>2017-01-07T16:11:57-05:00</updated><id>https://code.theothermattm.com/where-to-start-with-node-in-2017</id><content type="html" xml:base="https://code.theothermattm.com/where-to-start-with-node-in-2017/"><![CDATA[<p>Recently a friend of mine who is a veteran Java developer was asking me about Node.js development.  He tried to do some Node development 3 or 4 years ago, and got frustrated with the lack of tools and Javascript callback hell.     I tried to tell him that things have changed greatly since then, but found myself not able to formulate a good response in the moment.  He had also read <a href="https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f">"How It Feels To Learn Javascript in 2016"</a>, which is <em>really</em> funny, but isn't exactly a vote of confidence to try Node again!</p>
+
+<p>Shortly after, I came across <a href="https://dev.to/grahamcox82/why-i-struggle-with-node">"Why I Struggle With Node"</a> by Graham Cox.  It's a great post about why he loves Node.js, but gets frustrated with its ecosystem and prefers that of Java.  </p>
+
+<p>Having been a Java developer for 7 years before switching to do mostly Javascript development, I can say that I agree with many of Graham's sentiments.  The Java ecosystem is much more mature and the tools are great. There are many things I miss. But I don't get frustrated with Javascript's tooling as much.  I actually find the Javascript ecosystem and its tools invigorating, as long as you know where to start...</p>
+
+<p>The post made me think of my conversation with my friend.  I linked to Graham's post as a starting point, added some additional thoughts and sent them to my friend to give him a place to start with Node again.  After I wrote it up, I thought it might be useful to other Java developers who haven't taken the dive into Node.js and would like to, but might be intimidated or not know where to start.</p>
+
+<p>If you're in that boat, I suggest you first <a href="https://dev.to/grahamcox82/why-i-struggle-with-node">read Graham's post</a>. It has a great list of tools to start with that translate well into front end code too.  </p>
+
+<p>After you read that post, here are my notes and addons that I think might be helpful if you are coming into Node development from Java in the beginning of 2017:</p>
+
+<h1 id="learningjavascript">Learning Javascript</h1>
+
+<p>If you don't already have a good grasp on the Javascript language, or consider yourself just good enough to be dangerous, I found <a href="http://www.2ality.com/2013/06/basic-javascript.html">"Basic Javascript for the Impatient Programmer"</a> to be particularly useful in improving my understanding of the language.  There's tons of great books as well out there that you can easily find.</p>
+
+<p>Also, before you dive into creating a full app or start setting up tools, learn the <a href="https://spring.io/understanding/javascript-promises">Promise</a> API and use it from the start in your code.  It will make your code easier to reason about, and will make your life much more pleasant once you get past the initial learning curve.  If you can, use the <a href="http://bluebirdjs.com/">Bluebird</a> library for Promises.  It has lots of great extras on top of the native implementation, and rumor has it that <a href="http://stackoverflow.com/a/34961040/288935">it's even faster</a>.</p>
+
+<h1 id="building">Builds</h1>
+
+<p>Like Graham, I use <a href="http://gruntjs.com/">Grunt</a> for building, too. I haven't tried Gulp, I'm sure it's great, but I've used Grunt for a while and have found it effective.  Though, like Graham, I do miss the fact that Maven takes care of a lot of the gruntwork (ha ha!) for you.  For my team's apps, we have separate Grunt tasks and configurations for building front end and back end code since folder structures are different.</p>
+
+<h1 id="transpilers">Transpilers</h1>
+
+<p>I don't use Babel. If I'm being honest, the whole transpiler thing is a mystery to me. I kinda get it: You want to use new features in the language, especially in a browser environment that adapts rather slowly.  But if you're writing production code that needs to be supported by a team with varying levels of Javascript knowledge, it seems to add unnecessary complexity. It's hard enough keeping up with Javascript, let alone when you do source to source compiling.  It will also make your toolchain a lot easier to configure, and your debugging a lot more straightforward.</p>
+
+<h1 id="codecoverage">Code Coverage</h1>
+
+<p>This is mentioned in the post but I thought I'd provide what I've used:  <a href="https://github.com/taichi/grunt-istanbul">Istanbul through Grunt</a>.  It's nice and simple and does the job well.</p>
+
+<h1 id="logging">Logging</h1>
+
+<p>Graham mentions that Node logging isn't as nice as what he's used to in Java.  That's true, but I've used <a href="https://github.com/winstonjs/winston">Winston</a> quite effectively in production apps.</p>
+
+<h1 id="debugging">Debugging</h1>
+
+<p>Graham is right, debugging in Node is hard. I attribute some of that to it's asynchronous nature, though. </p>
+
+<p>I've used <a href="https://www.npmjs.com/package/node-debug">node-debug</a> effectively as a debugger. It's quite nice, but a real pain to setup. But, if I'm being honest again, usually I try to use <a href="https://github.com/winstonjs/winston">Winston</a> (mentioned above) to put some nice low-level logging statements in place so I can debug with those, then turn logging levels up and down as needed.  Sometimes those low level statements help when you'd least expect it.</p>
+
+<h1 id="applicationwiring">Application Wiring</h1>
+
+<p>When I first started with Node, we were using a dependency injection framework in Node since my team was used to using Spring in Java.  After a while, we just got frustrated with it and abandoned it.</p>
+
+<p>Javascript is a dynamic language, so it's really easy to stub and mock things out.  Use something like <a href="https://www.npmjs.com/package/proxyquire">Proxyquire</a> to trivially inject mocks in tests.</p>
+
+<h1 id="integrationtesting">Integration Testing</h1>
+
+<p>Graham's comments about integration testing being much easier in Java are spot on. I haven't come across nearly as many drop in, in-memory replacements for connected systems like databases or message queues.  This makes it tough to integration test.  What I've done in the past is to create throwaway Continuous Integration database instances at the beginning of the tests and then clear them out at the end of the tests.  It's not that bad once you set it up once, but I yearn for the ease of using something like HSQL in Java.</p>
+
+<h1 id="developmentenvironmentsanddocker">Team Development Environments and Docker</h1>
+
+<p>My team has half Windows users and half Mac users.  It makes for a challenging environment for everyone to setup their development environment in Node.  </p>
+
+<p>If you're on a team with developers using multiple platforms, and deploy to Linux, what I recommend is to create a Dockerfile which defines your development environment. Then, use a <a href="https://docs.docker.com/engine/tutorials/dockervolumes/">Docker volume mount</a> to put your source code inside the container. (Side note:  Use an <a href="https://hub.docker.com/_/node/">official Node.js Docker image as your base image</a>). This lets you use normal Docker build/run commands to bootstrap your dev environment.  The volume mount lets you dynamically update your code so you can still iterate fast, as if you were working on your local machine.  It works well across platforms (no worrying about exceptions in Windows), and as a bonus, if you ever want to run your app in a Docker container, you've already got it more than halfway there.  I'm hoping to post more about this in the future.</p>
+
+<h1 id="goenjoy">Go enjoy!</h1>
+
+<p>I've been developing in Node for about 3 years now, and I still really love the developer experience.  Sure, I'm probably not using the latest and greatest tools that just came out, but this workflow has gotten me to a good place where I can be very productive and crank out some good quality code.</p>
+
+<p>I hope some of these notes help you do the same.  </p>
+
+<p>What tools/techniques/libraries did I miss that were important for you when you came to Node from Java?</p>]]></content><author><name>theothermattm</name></author><category term="coding" /><category term="java" /><category term="javascript" /><category term="node.js" /><category term="tools" /><summary type="html"><![CDATA[Recently a friend of mine who is a veteran Java developer was asking me about Node.js development. He tried to do some Node development 3 or 4 years ago, and got frustrated with the lack of tools and Javascript callback hell. I tried to tell him that things have changed greatly since then, but found myself not able to formulate a good response in the moment. He had also read "How It Feels To Learn Javascript in 2016", which is really funny, but isn't exactly a vote of confidence to try Node again! Shortly after, I came across "Why I Struggle With Node" by Graham Cox. It's a great post about why he loves Node.js, but gets frustrated with its ecosystem and prefers that of Java. Having been a Java developer for 7 years before switching to do mostly Javascript development, I can say that I agree with many of Graham's sentiments. The Java ecosystem is much more mature and the tools are great. There are many things I miss. But I don't get frustrated with Javascript's tooling as much. I actually find the Javascript ecosystem and its tools invigorating, as long as you know where to start... The post made me think of my conversation with my friend. I linked to Graham's post as a starting point, added some additional thoughts and sent them to my friend to give him a place to start with Node again. After I wrote it up, I thought it might be useful to other Java developers who haven't taken the dive into Node.js and would like to, but might be intimidated or not know where to start. If you're in that boat, I suggest you first read Graham's post. It has a great list of tools to start with that translate well into front end code too. After you read that post, here are my notes and addons that I think might be helpful if you are coming into Node development from Java in the beginning of 2017: Learning Javascript If you don't already have a good grasp on the Javascript language, or consider yourself just good enough to be dangerous, I found "Basic Javascript for the Impatient Programmer" to be particularly useful in improving my understanding of the language. There's tons of great books as well out there that you can easily find. Also, before you dive into creating a full app or start setting up tools, learn the Promise API and use it from the start in your code. It will make your code easier to reason about, and will make your life much more pleasant once you get past the initial learning curve. If you can, use the Bluebird library for Promises. It has lots of great extras on top of the native implementation, and rumor has it that it's even faster. Builds Like Graham, I use Grunt for building, too. I haven't tried Gulp, I'm sure it's great, but I've used Grunt for a while and have found it effective. Though, like Graham, I do miss the fact that Maven takes care of a lot of the gruntwork (ha ha!) for you. For my team's apps, we have separate Grunt tasks and configurations for building front end and back end code since folder structures are different. Transpilers I don't use Babel. If I'm being honest, the whole transpiler thing is a mystery to me. I kinda get it: You want to use new features in the language, especially in a browser environment that adapts rather slowly. But if you're writing production code that needs to be supported by a team with varying levels of Javascript knowledge, it seems to add unnecessary complexity. It's hard enough keeping up with Javascript, let alone when you do source to source compiling. It will also make your toolchain a lot easier to configure, and your debugging a lot more straightforward. Code Coverage This is mentioned in the post but I thought I'd provide what I've used: Istanbul through Grunt. It's nice and simple and does the job well. Logging Graham mentions that Node logging isn't as nice as what he's used to in Java. That's true, but I've used Winston quite effectively in production apps. Debugging Graham is right, debugging in Node is hard. I attribute some of that to it's asynchronous nature, though. I've used node-debug effectively as a debugger. It's quite nice, but a real pain to setup. But, if I'm being honest again, usually I try to use Winston (mentioned above) to put some nice low-level logging statements in place so I can debug with those, then turn logging levels up and down as needed. Sometimes those low level statements help when you'd least expect it. Application Wiring When I first started with Node, we were using a dependency injection framework in Node since my team was used to using Spring in Java. After a while, we just got frustrated with it and abandoned it. Javascript is a dynamic language, so it's really easy to stub and mock things out. Use something like Proxyquire to trivially inject mocks in tests. Integration Testing Graham's comments about integration testing being much easier in Java are spot on. I haven't come across nearly as many drop in, in-memory replacements for connected systems like databases or message queues. This makes it tough to integration test. What I've done in the past is to create throwaway Continuous Integration database instances at the beginning of the tests and then clear them out at the end of the tests. It's not that bad once you set it up once, but I yearn for the ease of using something like HSQL in Java. Team Development Environments and Docker My team has half Windows users and half Mac users. It makes for a challenging environment for everyone to setup their development environment in Node. If you're on a team with developers using multiple platforms, and deploy to Linux, what I recommend is to create a Dockerfile which defines your development environment. Then, use a Docker volume mount to put your source code inside the container. (Side note: Use an official Node.js Docker image as your base image). This lets you use normal Docker build/run commands to bootstrap your dev environment. The volume mount lets you dynamically update your code so you can still iterate fast, as if you were working on your local machine. It works well across platforms (no worrying about exceptions in Windows), and as a bonus, if you ever want to run your app in a Docker container, you've already got it more than halfway there. I'm hoping to post more about this in the future. Go enjoy! I've been developing in Node for about 3 years now, and I still really love the developer experience. Sure, I'm probably not using the latest and greatest tools that just came out, but this workflow has gotten me to a good place where I can be very productive and crank out some good quality code. I hope some of these notes help you do the same. What tools/techniques/libraries did I miss that were important for you when you came to Node from Java?]]></summary></entry><entry><title type="html">Ask ‘Why?’ to Make Better Software</title><link href="https://code.theothermattm.com/ask-why/" rel="alternate" type="text/html" title="Ask ‘Why?’ to Make Better Software" /><published>2015-12-11T22:07:57-05:00</published><updated>2015-12-11T22:07:57-05:00</updated><id>https://code.theothermattm.com/ask-why</id><content type="html" xml:base="https://code.theothermattm.com/ask-why/"><![CDATA[<p>As a coder, it can be easy to get mired in details.  Our job is to manage the details of a business in code. And with the best of intentions, we may even create <em>more</em> details for ourselves through our designs and technology choices.</p>
+
+<p>Worrying about so many little things, it’s easy to lose sight of why we’re putting fingers to the keyboard in the first place.  Asking a simple question: “Why?” can help you rise above all the details to see the forest through the trees and make better software.</p>
+
+<h1 id="technology-first">Technology First?</h1>
+
+<p>When assigned a task or project, many times my first reaction is to think of which technology is most appropriate to complete the task, and then quickly after that, start formulating how I would code it.</p>
+
+<p>The technology is the fun part!  And it’s our job, right? Well, yes and yes, but immediately jumping into a technical solution is a guaranteed way to make things more complex than they need to be.</p>
+
+<p>And while you’re making things more complex for you and your team, you might be hurting your customers by not delivering what they really need or want.</p>
+
+<p>Next time you get a project, instead of opening up an editor, or Googling, or drawing a diagram, first ask “<em>Why</em> am I solving this problem?”</p>
+
+<h1 id="ask-around">Ask Around</h1>
+
+<p>If you don’t know why, ask the person who gave you the task.  If they don’t give you a satisfactory answer: ask more questions.  If they <em>still</em> can’t answer your question, and you can feasibly do so without getting fired, ask them who else can tell you why.</p>
+
+<p>“My boss told me to.” is never an acceptable answer on your part or anyone else’s.</p>
+
+<p>What is a good answer?  I don’t know, stop asking questions! Just kidding.  But, it should probably address one or more of the following:</p>
+
+<ul>
+  <li>A specific use case.  For example:  C-Level executives need this new report to make decisions about budget next year.  Or:  All users need to be able to save their login credentials in a cookie so they can save time each time they access the app.</li>
+  <li>Ease of operations.  For example:  Formatting log messages in XYZ format will allow the application support team to parse them easier and identify causes of bugs in logs quicker and make our customers happier.</li>
+  <li>Speed or quality of changes.  For example:  Writing an automated acceptance test suite will help us react better to customer needs by getting features out faster.</li>
+</ul>
+
+<p>But ultimately, a good answer to “Why?” is one that makes sense to you and isn’t simply “It’s my job to write code” or “My boss asked me to.”</p>
+
+<p>It is staggering how a simple “Why?” can halt people in their tracks and cause them to change their decisions, often for the better.</p>
+
+<p>Especially on a team of seasoned people who have been with an organization for a long time, it’s good for someone to keep asking “Why?”.  Chances are, there’s a bunch of people in the room with differing opinions, and the question will get them out in the open.  Sometimes, it might even turn out that the task shouldn’t be done at all.  Which is good, that frees you up focus on more important things.  At the very least, you’ll probably dig up some serious “gotchas” about your task in the process.</p>
+
+<h1 id="your-leaders-are-human">Your Leaders Are Human</h1>
+
+<p>When you’re looking for answers, be patient and remember that the product owner/architect/supervisor/bossman/leader you’re asking is busy and he is human, just like you.  He has lots of stuff he needs to get done, and sometimes he make mistakes and has lapses of judgement.  Your job is to <em>consult with him</em> to get things done for a business.  You can’t consult with him if you don’t fully understand why you’ve been assigned work.</p>
+
+<p>If you don’t understand why, or he didn’t explain: Consider it part of your job to ask more questions. If he is at all a decent leader, he will take the time to explain the value of the bug you’re fixing or the enhancement you’re doing.</p>
+
+<p>If your leader’s answer ends up being “because my boss told me to” and you can’t get any further then, well, it might be time to find a new organization.  Unless, of course, you’re up for the task of managing upward, which is probably a good topic for another post!</p>
+
+<h1 id="reducing-accidental-complexity">Reducing Accidental Complexity</h1>
+
+<p>Earlier, I mentioned that we sometimes create unintended details through our everyday choices of technology and design.  These unintended details are generally referred to as <a href="http://en.wikipedia.org/wiki/No_Silver_Bullet">accidental complexity</a>.  This is opposed to essential complexity, which is solving the “real problem.”</p>
+
+<p>Accidental complexity is part of our job and we can’t avoid it.  But we can mitigate how much of it we create!  Asking “Why?” helps.</p>
+
+<p>When you ask why you’re doing something, the answer of “Because technology X needs technology Y” should be an immediate red flag that someone doesn’t fully understand the business problem at hand.</p>
+
+<p>Writing code to solve a problem that other code created, or to solve a shortcoming of the AnguReactBerJS framework is not providing any value to the customers of your software. You are probably just creating more accidental complexity instead of solving a real business problem.</p>
+
+<p>Asking “Why?” will help you focus on the simplest way to solve a real business problem instead of simply fixing technology.  You might be able to bring your solution up a level to eliminate a technical issue or shortcoming altogether.</p>
+
+<h1 id="sharpening-focus">Sharpening Focus</h1>
+
+<p>Say you’re given the task to add a set of Automated Acceptance tests for your application.  Do you know why you’ve been given that task?</p>
+
+<p>Is it because we want to use SeleneCucumBybara, the latest, greatest testing framework?  Probably not.  Is it because we want to shield ourselves from creating bugs and allow us to be more flexible with the codebase so we can get features out quicker?  Now you’re probably on to something.</p>
+
+<p>Knowing “Why?” will help guide you through the immense pile of decisions you’re going to make when you start writing code.  You’re probably going to make multiple decisions per line of code you write.  <em>You want your coding decisions to be made with the right values in mind.</em> For instance, if you want to safeguard against a changing codebase, knowing this might help you target tests for the area of code which changes the most.</p>
+
+<h1 id="knowing-where-to-cut-corners">Knowing Where To Cut Corners</h1>
+
+<p>“Cutting Corners” is a phrase engineers hate, myself included.  But in the reality of most business software development, a shipped product is better than a perfect product, so there’s going to be some paint dripped on the floor.</p>
+
+<p>Asking “Why?” will help you know where it makes sense to spend less time polishing code and where a cut corner is acceptable.</p>
+
+<p>For instance, if the answer to “Why?” is “We need to get this feature out fast so we have first mover advantage” (meaning time to market is important), maybe it’s more important to have a few solid end to end automated acceptance tests than it is to have good unit test coverage.</p>
+
+<p>Or, if the answer is “This bug is causing customers to be charged $5 per order by mistake”, you probably want to spend <em>more</em> time writing tests for your code and less time polishing the front end.</p>
+
+<p>Remember that the concepts of <a href="https://en.wikipedia.org/wiki/Technical_debt">Technical Debt</a> and Backlogs (in Agile) exist to help us make sense out of the imperfections we might create.  These are ways for you to quantify your technical risk, track it, and hopefully address it later.</p>
+
+<h1 id="systemic-problems">Systemic Problems</h1>
+
+<p>Does a problem happen often?  Ask “Why?”.  This will help you figure out if a problem is systemic.  Fixing the cause of a systemic issue will save the team repeated effort which will allow everyone to focus on solving problems with more value.</p>
+
+<h1 id="disregard-experience">Disregard Experience</h1>
+
+<p>If you’re new to software development, it might seem intimidating to ask such a simple question all the time.  You might be afraid of seeming like you’re not good enough.  But newbies are in a perfect spot to ask “Why?”  A good team should have an understanding that a person new to software won’t know it all and needs some help.  They should also come to realize that questions like these will help the whole team get a better understanding of what they’re doing and if it needs to change.</p>
+
+<p>I think it can be harder for someone who has a lot of experience to ask a simple question like “Why?” all the time.  With more years of experience come greater expectations on the part of others.  This makes it more likely for a seasoned developer to perceive themselves, or possibly even <em>be perceived</em>, as being incompetent, even though they are anything but.</p>
+
+<p>Regardless of your experience, it takes some courage to ask “Why?”  Just keep on asking and feel dignified knowing that you’ll find better answers and do better work than those who don’t.</p>]]></content><author><name>theothermattm</name></author><category term="career" /><category term="coding" /><category term="people" /><category term="simplifying" /><summary type="html"><![CDATA[As a coder, it can be easy to get mired in details. Our job is to manage the details of a business in code. And with the best of intentions, we may even create more details for ourselves through our designs and technology choices. Worrying about so many little things, it’s easy to lose sight of why we’re putting fingers to the keyboard in the first place. Asking a simple question: “Why?” can help you rise above all the details to see the forest through the trees and make better software. Technology First? When assigned a task or project, many times my first reaction is to think of which technology is most appropriate to complete the task, and then quickly after that, start formulating how I would code it. The technology is the fun part! And it’s our job, right? Well, yes and yes, but immediately jumping into a technical solution is a guaranteed way to make things more complex than they need to be. And while you’re making things more complex for you and your team, you might be hurting your customers by not delivering what they really need or want. Next time you get a project, instead of opening up an editor, or Googling, or drawing a diagram, first ask “Why am I solving this problem?” Ask Around If you don’t know why, ask the person who gave you the task. If they don’t give you a satisfactory answer: ask more questions. If they still can’t answer your question, and you can feasibly do so without getting fired, ask them who else can tell you why. “My boss told me to.” is never an acceptable answer on your part or anyone else’s. What is a good answer? I don’t know, stop asking questions! Just kidding. But, it should probably address one or more of the following: A specific use case. For example: C-Level executives need this new report to make decisions about budget next year. Or: All users need to be able to save their login credentials in a cookie so they can save time each time they access the app. Ease of operations. For example: Formatting log messages in XYZ format will allow the application support team to parse them easier and identify causes of bugs in logs quicker and make our customers happier. Speed or quality of changes. For example: Writing an automated acceptance test suite will help us react better to customer needs by getting features out faster. But ultimately, a good answer to “Why?” is one that makes sense to you and isn’t simply “It’s my job to write code” or “My boss asked me to.” It is staggering how a simple “Why?” can halt people in their tracks and cause them to change their decisions, often for the better. Especially on a team of seasoned people who have been with an organization for a long time, it’s good for someone to keep asking “Why?”. Chances are, there’s a bunch of people in the room with differing opinions, and the question will get them out in the open. Sometimes, it might even turn out that the task shouldn’t be done at all. Which is good, that frees you up focus on more important things. At the very least, you’ll probably dig up some serious “gotchas” about your task in the process. Your Leaders Are Human When you’re looking for answers, be patient and remember that the product owner/architect/supervisor/bossman/leader you’re asking is busy and he is human, just like you. He has lots of stuff he needs to get done, and sometimes he make mistakes and has lapses of judgement. Your job is to consult with him to get things done for a business. You can’t consult with him if you don’t fully understand why you’ve been assigned work. If you don’t understand why, or he didn’t explain: Consider it part of your job to ask more questions. If he is at all a decent leader, he will take the time to explain the value of the bug you’re fixing or the enhancement you’re doing. If your leader’s answer ends up being “because my boss told me to” and you can’t get any further then, well, it might be time to find a new organization. Unless, of course, you’re up for the task of managing upward, which is probably a good topic for another post! Reducing Accidental Complexity Earlier, I mentioned that we sometimes create unintended details through our everyday choices of technology and design. These unintended details are generally referred to as accidental complexity. This is opposed to essential complexity, which is solving the “real problem.” Accidental complexity is part of our job and we can’t avoid it. But we can mitigate how much of it we create! Asking “Why?” helps. When you ask why you’re doing something, the answer of “Because technology X needs technology Y” should be an immediate red flag that someone doesn’t fully understand the business problem at hand. Writing code to solve a problem that other code created, or to solve a shortcoming of the AnguReactBerJS framework is not providing any value to the customers of your software. You are probably just creating more accidental complexity instead of solving a real business problem. Asking “Why?” will help you focus on the simplest way to solve a real business problem instead of simply fixing technology. You might be able to bring your solution up a level to eliminate a technical issue or shortcoming altogether. Sharpening Focus Say you’re given the task to add a set of Automated Acceptance tests for your application. Do you know why you’ve been given that task? Is it because we want to use SeleneCucumBybara, the latest, greatest testing framework? Probably not. Is it because we want to shield ourselves from creating bugs and allow us to be more flexible with the codebase so we can get features out quicker? Now you’re probably on to something. Knowing “Why?” will help guide you through the immense pile of decisions you’re going to make when you start writing code. You’re probably going to make multiple decisions per line of code you write. You want your coding decisions to be made with the right values in mind. For instance, if you want to safeguard against a changing codebase, knowing this might help you target tests for the area of code which changes the most. Knowing Where To Cut Corners “Cutting Corners” is a phrase engineers hate, myself included. But in the reality of most business software development, a shipped product is better than a perfect product, so there’s going to be some paint dripped on the floor. Asking “Why?” will help you know where it makes sense to spend less time polishing code and where a cut corner is acceptable. For instance, if the answer to “Why?” is “We need to get this feature out fast so we have first mover advantage” (meaning time to market is important), maybe it’s more important to have a few solid end to end automated acceptance tests than it is to have good unit test coverage. Or, if the answer is “This bug is causing customers to be charged $5 per order by mistake”, you probably want to spend more time writing tests for your code and less time polishing the front end. Remember that the concepts of Technical Debt and Backlogs (in Agile) exist to help us make sense out of the imperfections we might create. These are ways for you to quantify your technical risk, track it, and hopefully address it later. Systemic Problems Does a problem happen often? Ask “Why?”. This will help you figure out if a problem is systemic. Fixing the cause of a systemic issue will save the team repeated effort which will allow everyone to focus on solving problems with more value. Disregard Experience If you’re new to software development, it might seem intimidating to ask such a simple question all the time. You might be afraid of seeming like you’re not good enough. But newbies are in a perfect spot to ask “Why?” A good team should have an understanding that a person new to software won’t know it all and needs some help. They should also come to realize that questions like these will help the whole team get a better understanding of what they’re doing and if it needs to change. I think it can be harder for someone who has a lot of experience to ask a simple question like “Why?” all the time. With more years of experience come greater expectations on the part of others. This makes it more likely for a seasoned developer to perceive themselves, or possibly even be perceived, as being incompetent, even though they are anything but. Regardless of your experience, it takes some courage to ask “Why?” Just keep on asking and feel dignified knowing that you’ll find better answers and do better work than those who don’t.]]></summary></entry><entry><title type="html">Don’t Forget: Keep the Web Simple</title><link href="https://code.theothermattm.com/keep-the-web-simple/" rel="alternate" type="text/html" title="Don’t Forget: Keep the Web Simple" /><published>2015-10-08T20:26:20-04:00</published><updated>2015-10-08T20:26:20-04:00</updated><id>https://code.theothermattm.com/keep-the-web-simple</id><content type="html" xml:base="https://code.theothermattm.com/keep-the-web-simple/"><![CDATA[<p>I just had the pleasure of being reminded how simple and great the web is at <a href="http://aneventapart.com/event/austin-2015">An Event Apart in Austin, TX</a>.</p>
+
+<p>In one of the talks I attended, <a href="https://adactio.com">Jeremy Keith</a> reminded us that though the web has become a complicated beast, it is still amazing in its simplest form. And we shouldn’t forget that.</p>
+
+<p>This sentiment rang very true to me - It made me recall the pure excitement I felt back in the mid-1990’s, when I was 13 years old, putting my first web pages on the Internet.  A kid like me could <em>create something from nothing</em>, and better yet, self-publish it and have it accessible by the whole world. <em>Anyone</em> could see my content!</p>
+
+<p>Since I started my professional career, I’ve been focused on very large web applications, many times with heavy server side work.  More recently, I’ve worked on large Single Page Applications that run lots of Javascript in the browser.</p>
+
+<p>I love what I do, but these types of applications have been complex beasts to work with. There have been days where all my time is spent wrangling the latest-and-greatest Javascript frameworks, leaving me frustrated because such-and-such plugin doesn’t work with AngularJS 1.2, or whatever the framework du jour is. Or why I cant get my Grunt build working that day.</p>
+
+<p>Along this path, I forgot about the power of a browser rendering simple HTML and CSS.  And perhaps more importantly, having that content be globally accessible in one simple place - a URL.</p>
+
+<p>These ideas of were underscored by almost every other speaker at An Event Apart.  They reminded us that in order to create the most useful web sites for a user, we need to forget about fancy layouts and CSS.  Instead we should focus on <em>content</em> first and ask ourselves: “What is most important for the user?”  We should make that content simple and easy to find, regardless of how advanced their device or web browser is.  Then, get it captured in plain, semantically meaningful HTML markup. The rest will fall into place.</p>
+
+<p>I write this with the hope that it will help me remember these ideas for the next web app I build.</p>
+
+<p>My notes for An Event Apart from Austin 2015 are <a href="https://gist.github.com/theothermattm/dd4dde49afbacd8e313d">posted on Github</a></p>]]></content><author><name>theothermattm</name></author><category term="coding" /><category term="web" /><summary type="html"><![CDATA[I just had the pleasure of being reminded how simple and great the web is at An Event Apart in Austin, TX. In one of the talks I attended, Jeremy Keith reminded us that though the web has become a complicated beast, it is still amazing in its simplest form. And we shouldn’t forget that. This sentiment rang very true to me - It made me recall the pure excitement I felt back in the mid-1990’s, when I was 13 years old, putting my first web pages on the Internet. A kid like me could create something from nothing, and better yet, self-publish it and have it accessible by the whole world. Anyone could see my content! Since I started my professional career, I’ve been focused on very large web applications, many times with heavy server side work. More recently, I’ve worked on large Single Page Applications that run lots of Javascript in the browser. I love what I do, but these types of applications have been complex beasts to work with. There have been days where all my time is spent wrangling the latest-and-greatest Javascript frameworks, leaving me frustrated because such-and-such plugin doesn’t work with AngularJS 1.2, or whatever the framework du jour is. Or why I cant get my Grunt build working that day. Along this path, I forgot about the power of a browser rendering simple HTML and CSS. And perhaps more importantly, having that content be globally accessible in one simple place - a URL. These ideas of were underscored by almost every other speaker at An Event Apart. They reminded us that in order to create the most useful web sites for a user, we need to forget about fancy layouts and CSS. Instead we should focus on content first and ask ourselves: “What is most important for the user?” We should make that content simple and easy to find, regardless of how advanced their device or web browser is. Then, get it captured in plain, semantically meaningful HTML markup. The rest will fall into place. I write this with the hope that it will help me remember these ideas for the next web app I build. My notes for An Event Apart from Austin 2015 are posted on Github]]></summary></entry><entry><title type="html">So many Linux hosts, so little time</title><link href="https://code.theothermattm.com/so-many-linux-hosts-so-little-time/" rel="alternate" type="text/html" title="So many Linux hosts, so little time" /><published>2015-03-01T06:10:09-05:00</published><updated>2015-03-01T06:10:09-05:00</updated><id>https://code.theothermattm.com/so-many-linux-hosts-so-little-time</id><content type="html" xml:base="https://code.theothermattm.com/so-many-linux-hosts-so-little-time/"><![CDATA[<p>On a given day, I’m interacting with at least 10 different Linux servers.  Whenever I used to shut my laptop, I got frustrated having to reopen ssh connections to every server I connected to.  I also got myself into terminal tab overload, with a separate tab open for every server I connected to.  This is no way to live!</p>
+
+<p>Perhaps you interact with more.  A lot more.  Or even just more than one.  If so, you’ve probably experienced similar frustration.</p>
+
+<p>I found a pretty good solution to both of these issues using <a href="http://tmux.sourceforge.net/">tmux</a> and ssh.  In this post, I’ll describe my workflow for working with my many Linux servers.</p>
+
+<h1 id="the-approach">The Approach</h1>
+
+<p>The overall idea is to pick a primary remote host to use as your “Home Base” and manage all your other connections through it.  This could be referred to as a “<a href="http://en.wikipedia.org/wiki/Bastion_host">bastion host</a>”), though in this case you’re not using it for security, but convenience.</p>
+
+<p>Then, use a <a href="http://en.wikipedia.org/wiki/Terminal_multiplexer">Terminal Multiplexer</a> to keep your all your SSH sessions open on that host. For this article, I will focus on <a href="http://tmux.sourceforge.net/">tmux</a>.</p>
+
+<p>By using a multiplexer, you can keep your terminal sessions open perpetually on a remote host. If you get disconnected from your local developer machine, you can just connect back to your “primary” remote host, then pick your connection, and be on your way.</p>
+
+<p>Your terminal output should even be saved and you can very easily switch between them without multiple tabs or windows open on your local development machine.  Nice!</p>
+
+<p>If you’ve used tmux before, this should be pretty straightforward.  If you haven’t, consider this a nice way to get your feet wet getting started with it.</p>
+
+<h1 id="the-ingredients">The Ingredients</h1>
+
+<ul>
+  <li>Lots of Linux servers to connect to</li>
+  <li><a href="http://www.openssh.com/">Open SSH</a> installed on your developer machine</li>
+  <li>If you’re on OS X or Linux, you already have it.  For Windows, <a href="http://cygwin.wikia.com/wiki/Sshd">Use Cygwin</a>)</li>
+  <li>A remote Linux server that you can install packages on</li>
+</ul>
+
+<h1 id="the-recipe">The Recipe</h1>
+
+<h2 id="pick-your-home-base-host">Pick Your Home Base host</h2>
+
+<p>First off, pick your Home Base host.  It can be one of the servers you always connect to.  You need to be able to SSH into this host and it needs to be able to:</p>
+
+<ul>
+  <li>Stay up perpetually (or at least more than you close your laptop)</li>
+  <li>Keep SSH connections open indefinitely to other servers</li>
+  <li>Connect to all your servers.  Really, it should be inside the same firewall.</li>
+</ul>
+
+<p>You also need the ability to install packages on the host (via apt-get, yum, or 
+your favorite package manager).</p>
+
+<h2 id="install-tmux-on-your-home-base-host">Install tmux on your Home Base host</h2>
+
+<p>If you don’t already have it, install <a href="http://tmux.sourceforge.net/">tmux</a> on 
+your Home Base.  Using apt-get as a package manager, it should be as simple as:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get update &amp;&amp; sudo apt-get install tmux
+</code></pre></div></div>
+
+<p>(Using Yum should be very similar)</p>
+
+<h3 id="cant-install-packages">Can’t install packages?</h3>
+
+<p>If you don’t have the ability to install packages, you can also check to see if you already have <a href="http://tmux.sourceforge.net/">tmux</a> (run <code class="language-plaintext highlighter-rouge">which tmux</code>) or (or <a href="http://www.gnu.org/software/screen/">GNU Screen</a> (<code class="language-plaintext highlighter-rouge">which screen</code>).  If you already have one of those, you’re golden!</p>
+
+<p>If GNU Screen is your only option, this approach will still work, but I will only outline the detailed steps for tmux below.</p>
+
+<h2 id="got-ssh-keys">Got SSH Keys?</h2>
+
+<p>If not, start using them. It is not only secure, but a huge timesaver over remembering and entering passwords 
+all the time.  <a href="https://help.github.com/articles/generating-ssh-keys/">GitHub has a great reference to get you going</a>.</p>
+
+<p>Make sure you use a passphrase along with your key for extra security. There are even ways to <a href="https://help.github.com/articles/working-with-ssh-key-passphrases/">cache your passphrase</a> so you don’t need to type it all the time.</p>
+
+<h2 id="setup-ssh-keys-on-your-home-base">Setup SSH keys on your Home Base</h2>
+
+<p>You have some options here:</p>
+
+<p>You can just reuse your same private key on your local developer machine and your Home Base host.  This gives you the flexibility to connect to the same servers with your local developer machine or your Home Base in a pinch.  But, <a href="http://superuser.com/questions/189355/is-it-ok-to-share-private-key-file-between-multiple-computers-services">it could be considered less secure</a>.</p>
+
+<p>If you want extra security, you can generate another ssh keypair for your home base server, in addition to the one you’ll use for your local developer machine.  That way, you have an individual key for each machine you’ll be connecting with.  The downside is more keys and passphrases to manage and remember.</p>
+
+<h2 id="copy-around-your-public-keys">Copy around your public keys</h2>
+
+<p>Now that you’ve got an SSH keypair (or keypairs), make sure that you copy your public key to your Home Base host, so you can easily ssh into that.</p>
+
+<p>If you decide to re-use your private key, copy that over to your Home Base server. Otherwise, generate another keypair for your home base server.</p>
+
+<p>This is how I copy around my public SSH key around:</p>
+
+<script src="https://gist.github.com/theothermattm/8786339.js"></script>
+
+<p>Next, repeat those same steps to copy your public key to each and every server
+you regularly connect to.</p>
+
+<p>This step is probably the most tedious, but it will pay off in time savings within a day.</p>
+
+<h2 id="setup-ssh-configs">Setup SSH Configs</h2>
+
+<p>One snag that I hit early on with ssh was dropped connections due to inactivity.  To keep connections
+open, I set the ssh configuration option <code class="language-plaintext highlighter-rouge">ServerAliveInterval</code> on each host to 60 seconds.  This will periodically
+ping the server to keep the connection alive.</p>
+
+<p>Here’s what you can put in your <code class="language-plaintext highlighter-rouge">.ssh/config</code> file in your Home Base to set this
+for the server ‘myremoteserver1.yourdomain.com’:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Host myremoteserver1.yourdomain.com
+    ServerAliveInterval 60
+</code></pre></div></div>
+
+<p>You can also do this for all hosts by doing this:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Host *
+    ServerAliveInterval 60
+</code></pre></div></div>
+
+<h2 id="start-spinning-up-sessions-with-tmux">Start spinning up sessions with tmux</h2>
+
+<p>If you’ve never used tmux before, <a href="https://robots.thoughtbot.com/a-tmux-crash-course">reading about its features</a> is a good idea.  For now, I’ll just give the basics to get a good multiple server workflow going.</p>
+
+<p>SSH into your Home Base host, and pick one of the servers you frequently connect to and start a tmux session
+for it, you’ll type the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tmux new-session -s myremoteserver1
+</code></pre></div></div>
+
+<p>You’ll then see a nice green bar at the bottom of your screen telling you you’re in the comforting arms of a tmux session.</p>
+
+<p>Now, ssh into one of your frequently access hosts in that session. Go ahead and play around a bit.</p>
+
+<p>When you’re ready, create another tmux session for another host by opening a new tmux session with a different name related to that server.</p>
+
+<p>You’ll do this by triggering the tmux “prefix” keybinding.  This keybinding will put you into tmux’s control.  By default, the tmux prefix keybinding is <code class="language-plaintext highlighter-rouge">CTRL+b</code>.</p>
+
+<p>To start a new session, the key sequence you’ll start with is:  <code class="language-plaintext highlighter-rouge">CTRL+B :</code></p>
+
+<p>That’s: Hold CTRL and B, followed by a colon (:).</p>
+
+<p>You’ll now see a yellow bar at the bottom of your terminal you can type into.</p>
+
+<p>Type the following (should look familiar!): <code class="language-plaintext highlighter-rouge">new-session -s myremoteserver2</code></p>
+
+<p>Now you’ll be put into a new tmux session named for your second remote server.</p>
+
+<p>Then, SSH into your second server.  Play around.</p>
+
+<p>Repeat these steps for any frequently accessed servers.</p>
+
+<h2 id="switch-around">Switch around</h2>
+
+<p>Phew, that was a lot of work.  So, what’s the big deal?</p>
+
+<p>Well, now you can easily switch around between these different sessions to your heart’s content.</p>
+
+<p>And they’ll stick around after your laptop drops Wifi!</p>
+
+<p>You can do this by hitting the tmux prefix plus the “s” key.  What that key combo would look like is: <code class="language-plaintext highlighter-rouge">CTRL+B s</code></p>
+
+<p>You should now see a menu with the two sessions you created.  Select one of them with the arrow keys and press enter and you should be able to switch back and forth.</p>
+
+<p>Since your sessions are still open, you’ll have all your buffer output still there from when you last left it.  And
+since your SSH won’t time out, you can keep these open as long as you need to.</p>
+
+<h2 id="disconnect-and-try-again">Disconnect and try again</h2>
+
+<p>Let’s say you close your laptop and take a break.  You connect back to wifi and
+want to get back onto your remote hosts.  If you ssh into your Home Base again, and type: <code class="language-plaintext highlighter-rouge">tmux at</code></p>
+
+<p>You will be put right back into those same tmux sessions (the <code class="language-plaintext highlighter-rouge">at</code> means “attach”).  Everything preserved!</p>
+
+<p>This will stay until you exit your sessions in tmux or tmux is terminated on your Home Base host.</p>
+
+<h2 id="dont-forget-to-clean-up-your-toys">Don’t forget to clean up your toys</h2>
+
+<p>Periodically, it’s important to go through your tmux sessions and prune them for servers you don’t need to actively be connected to.  You can do this by again doing this tmux prefix and a colon: <code class="language-plaintext highlighter-rouge">CTRL+B :</code></p>
+
+<p>Then at the yellow prompt, type: <code class="language-plaintext highlighter-rouge">kill-session -t sessionname</code></p>
+
+<p>Where the session name is one of the ones you created earlier.</p>
+
+<h1 id="next-steps">Next steps</h1>
+
+<p>As I wrote this article, I realized this was really a big explanation of a tmux/multiplexer use case.  This workflow is really scratching the surface of what tmux can do. If you find this way of working effective, I would encourage you to learn more about tmux.</p>
+
+<p>As you learn more, you will see it is <em>very</em> configurable and powerful.  People also <a href="https://gist.github.com/theothermattm/c00449800a9c1cb7193a">share their tmux.conf files</a> and you can learn a lot about what it can do that way, as well.</p>
+
+<h1 id="caveats">Caveats</h1>
+
+<p>I have the comparative luxury of connecting to all these machines inside my organization’s firewall.  I can’t speak for the security implications of leaving open SSH connections like this across the “wild” internet.  I would love to see comments about that situation.</p>]]></content><author><name>theothermattm</name></author><category term="linux" /><category term="linux" /><category term="ssh" /><category term="tmux" /><summary type="html"><![CDATA[On a given day, I’m interacting with at least 10 different Linux servers. Whenever I used to shut my laptop, I got frustrated having to reopen ssh connections to every server I connected to. I also got myself into terminal tab overload, with a separate tab open for every server I connected to. This is no way to live! Perhaps you interact with more. A lot more. Or even just more than one. If so, you’ve probably experienced similar frustration. I found a pretty good solution to both of these issues using tmux and ssh. In this post, I’ll describe my workflow for working with my many Linux servers. The Approach The overall idea is to pick a primary remote host to use as your “Home Base” and manage all your other connections through it. This could be referred to as a “bastion host”), though in this case you’re not using it for security, but convenience. Then, use a Terminal Multiplexer to keep your all your SSH sessions open on that host. For this article, I will focus on tmux. By using a multiplexer, you can keep your terminal sessions open perpetually on a remote host. If you get disconnected from your local developer machine, you can just connect back to your “primary” remote host, then pick your connection, and be on your way. Your terminal output should even be saved and you can very easily switch between them without multiple tabs or windows open on your local development machine. Nice! If you’ve used tmux before, this should be pretty straightforward. If you haven’t, consider this a nice way to get your feet wet getting started with it. The Ingredients Lots of Linux servers to connect to Open SSH installed on your developer machine If you’re on OS X or Linux, you already have it. For Windows, Use Cygwin) A remote Linux server that you can install packages on The Recipe Pick Your Home Base host First off, pick your Home Base host. It can be one of the servers you always connect to. You need to be able to SSH into this host and it needs to be able to: Stay up perpetually (or at least more than you close your laptop) Keep SSH connections open indefinitely to other servers Connect to all your servers. Really, it should be inside the same firewall. You also need the ability to install packages on the host (via apt-get, yum, or your favorite package manager). Install tmux on your Home Base host If you don’t already have it, install tmux on your Home Base. Using apt-get as a package manager, it should be as simple as: sudo apt-get update &amp;&amp; sudo apt-get install tmux (Using Yum should be very similar) Can’t install packages? If you don’t have the ability to install packages, you can also check to see if you already have tmux (run which tmux) or (or GNU Screen (which screen). If you already have one of those, you’re golden! If GNU Screen is your only option, this approach will still work, but I will only outline the detailed steps for tmux below. Got SSH Keys? If not, start using them. It is not only secure, but a huge timesaver over remembering and entering passwords all the time. GitHub has a great reference to get you going. Make sure you use a passphrase along with your key for extra security. There are even ways to cache your passphrase so you don’t need to type it all the time. Setup SSH keys on your Home Base You have some options here: You can just reuse your same private key on your local developer machine and your Home Base host. This gives you the flexibility to connect to the same servers with your local developer machine or your Home Base in a pinch. But, it could be considered less secure. If you want extra security, you can generate another ssh keypair for your home base server, in addition to the one you’ll use for your local developer machine. That way, you have an individual key for each machine you’ll be connecting with. The downside is more keys and passphrases to manage and remember. Copy around your public keys Now that you’ve got an SSH keypair (or keypairs), make sure that you copy your public key to your Home Base host, so you can easily ssh into that. If you decide to re-use your private key, copy that over to your Home Base server. Otherwise, generate another keypair for your home base server. This is how I copy around my public SSH key around: Next, repeat those same steps to copy your public key to each and every server you regularly connect to. This step is probably the most tedious, but it will pay off in time savings within a day. Setup SSH Configs One snag that I hit early on with ssh was dropped connections due to inactivity. To keep connections open, I set the ssh configuration option ServerAliveInterval on each host to 60 seconds. This will periodically ping the server to keep the connection alive. Here’s what you can put in your .ssh/config file in your Home Base to set this for the server ‘myremoteserver1.yourdomain.com’: Host myremoteserver1.yourdomain.com ServerAliveInterval 60 You can also do this for all hosts by doing this: Host * ServerAliveInterval 60 Start spinning up sessions with tmux If you’ve never used tmux before, reading about its features is a good idea. For now, I’ll just give the basics to get a good multiple server workflow going. SSH into your Home Base host, and pick one of the servers you frequently connect to and start a tmux session for it, you’ll type the following: tmux new-session -s myremoteserver1 You’ll then see a nice green bar at the bottom of your screen telling you you’re in the comforting arms of a tmux session. Now, ssh into one of your frequently access hosts in that session. Go ahead and play around a bit. When you’re ready, create another tmux session for another host by opening a new tmux session with a different name related to that server. You’ll do this by triggering the tmux “prefix” keybinding. This keybinding will put you into tmux’s control. By default, the tmux prefix keybinding is CTRL+b. To start a new session, the key sequence you’ll start with is: CTRL+B : That’s: Hold CTRL and B, followed by a colon (:). You’ll now see a yellow bar at the bottom of your terminal you can type into. Type the following (should look familiar!): new-session -s myremoteserver2 Now you’ll be put into a new tmux session named for your second remote server. Then, SSH into your second server. Play around. Repeat these steps for any frequently accessed servers. Switch around Phew, that was a lot of work. So, what’s the big deal? Well, now you can easily switch around between these different sessions to your heart’s content. And they’ll stick around after your laptop drops Wifi! You can do this by hitting the tmux prefix plus the “s” key. What that key combo would look like is: CTRL+B s You should now see a menu with the two sessions you created. Select one of them with the arrow keys and press enter and you should be able to switch back and forth. Since your sessions are still open, you’ll have all your buffer output still there from when you last left it. And since your SSH won’t time out, you can keep these open as long as you need to. Disconnect and try again Let’s say you close your laptop and take a break. You connect back to wifi and want to get back onto your remote hosts. If you ssh into your Home Base again, and type: tmux at You will be put right back into those same tmux sessions (the at means “attach”). Everything preserved! This will stay until you exit your sessions in tmux or tmux is terminated on your Home Base host. Don’t forget to clean up your toys Periodically, it’s important to go through your tmux sessions and prune them for servers you don’t need to actively be connected to. You can do this by again doing this tmux prefix and a colon: CTRL+B : Then at the yellow prompt, type: kill-session -t sessionname Where the session name is one of the ones you created earlier. Next steps As I wrote this article, I realized this was really a big explanation of a tmux/multiplexer use case. This workflow is really scratching the surface of what tmux can do. If you find this way of working effective, I would encourage you to learn more about tmux. As you learn more, you will see it is very configurable and powerful. People also share their tmux.conf files and you can learn a lot about what it can do that way, as well. Caveats I have the comparative luxury of connecting to all these machines inside my organization’s firewall. I can’t speak for the security implications of leaving open SSH connections like this across the “wild” internet. I would love to see comments about that situation.]]></summary></entry></feed>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Getting started with Golang on OS X - Matt @ Work
+    
+  </title>
+
+  <meta name="description" content="I’ve heard a lot of buzz recently about the (relatively) new language Go (aka Golang) created by Google. Notably, that the fantastic Docker was written in it...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://code.theothermattm.com/getting-started-with-golang-on-os-x/">
+  <link rel="alternate" type="application/rss+xml" title="Matt @ Work" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Matt @ Work</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/posts">Posts</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/img/clean/bg-post.jpg')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Getting started with Golang on OS X</h1>
+            
+            <span class="meta">Posted by
+              <a href="#">theothermattm</a>
+              on December 01, 2014 &middot; <span class="reading-time" title="Estimated read time">
+  
+   10 mins  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>I’ve heard a lot of buzz recently about the (relatively) new language <a href="https://golang.org/">Go</a> (aka Golang) created by Google.  Notably, that the fantastic <a href="http://www.slideshare.net/jpetazzo/docker-and-go-why-did-we-decide-to-write-docker-in-go">Docker</a> was written in it.</p>
+
+<p>I decided to try learning it recently, so thought I’d share my experience getting setup with a development environment on OS X.   I’ve been doing a lot of <a href="http://nodejs.org/">Node.js</a> development recently, and I come from a Java background, so it was a bit of a shift in what I’m used to setting up a development environment.</p>
+
+<p>My intention with this post is not to teach Go fundamentals (see later on in the post for some resources), but rather to help you get your environment setup so you can start writing and running Go code quickly on your Mac.</p>
+
+<p>Finally, at the end, if you’re still reading, I’ll share some of my thoughts about how my experience went and about the language itself.</p>
+
+<h2 id="getting-started-using-homebrew">Getting started using Homebrew</h2>
+
+<p>First off, I use <a href="http://brew.sh/">Homebrew</a> to install all my developer tools, so I pursued that route to get myself started as opposed to installing from source.  I’ll document those steps below and note where they’re Homebrew specific, however, you can also <a href="https://golang.org/doc/install">install from the source</a></p>
+
+<h2 id="first-install-mercurial-using-homebrew">First, install Mercurial (using Homebrew)</h2>
+
+<p>Go needs this to install lots of common packages.</p>
+
+<p><code class="language-plaintext highlighter-rouge">brew install hg</code></p>
+
+<h2 id="second-install-go-itself-using-homebrew">Second, install Go itself (using homebrew)</h2>
+
+<p><code class="language-plaintext highlighter-rouge">brew install go --cross-compile-common</code></p>
+
+<p>You’ll get some information about exporting some directories to your <code class="language-plaintext highlighter-rouge">$PATH</code> variable.  More on that below.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">cross-compile-common</code> option will come in handy later if and when you want to try creating executables for OS’es other than OS X.  This option will increase your install size, though.  So, if you don’t plan on trying cross compilation, don’t worry about adding that flag.</p>
+
+<h2 id="third-set-the-right-environment-variables">Third, set the right environment variables</h2>
+
+<p>Go has a much different directory setup than I’m used to with something like Node.js, where you can simply put a project wherever you want on your filesystem and run a command.</p>
+
+<p>Go expects you define where your main workspace is, and it will then install packages and compile binaries relative to that path.  It does this by using an environment variable called <code class="language-plaintext highlighter-rouge">$GOPATH</code>.</p>
+
+<p>Additionally, if you don’t install in the <a href="https://golang.org/doc/install">“standard” Go install location</a>, you’ll need to tell Go where to find binaries.  You can do this by setting the <code class="language-plaintext highlighter-rouge">$GOROOT</code> variable.  If you installed with Homebrew, see the output it gives you during the install, but the install location is <em>most likely</em> something like this:</p>
+
+<p><code class="language-plaintext highlighter-rouge">export GOROOT=/usr/local/opt/go/libexec</code></p>
+
+<p>Finally, you’ll want to make sure anything you compile you can execute easily on your path.  When you compile, Go will by default put your binary in the root of your Go workspace in the <code class="language-plaintext highlighter-rouge">bin/</code> directory.  You can use the <code class="language-plaintext highlighter-rouge">$GOPATH</code> variable to reference it.</p>
+
+<p>Also, because the Homebrew output suggested it, I added the <code class="language-plaintext highlighter-rouge">$GOROOT/bin</code> location to my <code class="language-plaintext highlighter-rouge">$PATH</code> variable for good measure:</p>
+
+<p><code class="language-plaintext highlighter-rouge">export PATH=$PATH:$GOROOT/bin:$GOPATH/bin</code></p>
+
+<p>(Note that that last part may not be necessary given that Homebrew does a lot of this for you.  I was a bit confused by the message Homebrew output during the install.  If anybody can clarify, please leave a comment and I will update this post.)</p>
+
+<h2 id="fourth-try-installing-the-go-tour-as-a-test">Fourth, try installing the Go Tour as a test</h2>
+
+<p>It should be easy:</p>
+
+<p><code class="language-plaintext highlighter-rouge">go get code.google.com/p/go-tour/gotour</code></p>
+
+<p>This retrieves the source code into your <code class="language-plaintext highlighter-rouge">$GOPATH/src</code> directory under the right namespace directory.</p>
+
+<p>Then, once that’s done:
+<code class="language-plaintext highlighter-rouge">go install code.google.com/p/go-tour/gotour</code></p>
+
+<p>This will actually compile the code for you in the <code class="language-plaintext highlighter-rouge">$GOPATH/bin</code> directory.</p>
+
+<p>Hopefully, at that point, you’ve got no errors.  If you don’t, you should be able to simply run the <code class="language-plaintext highlighter-rouge">gotour</code> command on the command prompt and it will spin up a webserver which runs the official Go tour on your local developer machine.</p>
+
+<h2 id="fifth-go-forth-and-learn">Fifth, go forth and learn!</h2>
+
+<p>Finally, grab a coffee, and try out some Go code!</p>
+
+<p>I wouldn’t actually recommend learning Go from the “<a href="https://tour.golang.org">official tour</a>” (see my thoughts at the end of this post). However, it is a good test to make sure your install is running well, which is why I note it above.</p>
+
+<p>In retrospect, I wish I had tried some of the tutorials found on <a href="http://dave.cheney.net/resources-for-new-go-programmers">Dave Cheney’s “Resources for new Go Programmers”</a>, at a glance they appear to be much better.  When I have more time I will try one of them out.</p>
+
+<p>Also:  Here’s a quick and easy command line trick to help speed up your learn / code / test process: Use logical operators to make sure you compile then run your program in a one liner:</p>
+
+<p><code class="language-plaintext highlighter-rouge">go install code.google.com/p/go-tour/gotour &amp;&amp; gotour</code></p>
+
+<p>This will compile and execute your program assuming that the compilation is successful. This is just using the Go tour as an example.  Rinse and repeat as needed for your own package and executable while you learn.</p>
+
+<h2 id="sixth-optional-try-cross-compiling">Sixth (optional): Try cross-compiling</h2>
+
+<p>One of the things I wanted to try out while I was learning was cross-compiling.  I wanted to see how easy it was to code on my Mac and then build an executable for some of the Linux (RHEL) servers we have at my organization.</p>
+
+<p>If you used the <code class="language-plaintext highlighter-rouge">--cross-compile-common</code> flag in the Homebrew install above, you should have many of the common OS and Architecture combinations that you can compile to.</p>
+
+<p>You can cross compile by running a command like this:</p>
+
+<p><code class="language-plaintext highlighter-rouge">GOOS=linux GOARCH=386 go install code.google.com/p/go-tour/gotour</code></p>
+
+<p>This will compile the Go tour executable for Linux on a 386 architecture.  It will put the binary in <code class="language-plaintext highlighter-rouge">$GOPATH/bin/$GOOS_$GOOARCH</code>.  Whereas your normal compile without flags simply goes into <code class="language-plaintext highlighter-rouge">$GOPATH/bin</code></p>
+
+<p>You can replace <code class="language-plaintext highlighter-rouge">$GOOS</code> and <code class="language-plaintext highlighter-rouge">$GOARCH</code> with a valid combination* from <a href="https://golang.org/doc/install/source">the list here (search for “$GOOS and $GOARCH”)</a>.  And, of course, substitute your own package name for the Go tour :)</p>
+
+<p>(The “valid combinations” may not work unless it is one of the “common” ones that the Homebrew recipe installs for you.  You can see which ones are installed <a href="https://github.com/Homebrew/homebrew/blob/master/Library/Formula/go.rb">in the recipe itself</a>.  You can also run the Homebrew install with <code>--cross-compile-all</code> and it will install all options for you, but it will take up a lot of space.  <a href="https://coderwall.com/p/pnfwxg">This Coderwall article</a> was very helpful in figuring this all out)</p>
+
+<h2 id="parting-thoughts">Parting thoughts</h2>
+
+<p>Finally, if you’re interested, here’s my thoughts on Go itself and my experience learning it.</p>
+
+<h2 id="the-good">The good:</h2>
+
+<ul>
+  <li>Go has built in package management system from the get Go (ha, get it!?)</li>
+  <li>You can import packages directly from a Git repository (awesome!)</li>
+  <li>It’s pretty easy to cross compile, which is nice to create simple executables for different environments</li>
+  <li>Concurrency is easy (see “the bad”)</li>
+</ul>
+
+<h2 id="the-bad">The bad</h2>
+
+<h3 id="the-official-language-tour-is-not-very-good">The <a href="https://tour.golang.org/">official language tour</a> is not very good.</h3>
+
+<p>Given that this is the first place people will likely start to learn the language, I thought that this tour did not explain concepts very well, leaving them to short code examples that took too long for me to grasp, given how short they were.  Additionally, leaving math exercises to the user is not engaging or effective for me, and I’m assuming the same goes for many developers interested in using Go.</p>
+
+<p>As I mentioned above, try seeing if <a href="http://dave.cheney.net/resources-for-new-go-programmers">Dave Cheney’s “Resources for new Go Programmers”</a> has something better for you.</p>
+
+<h3 id="making-concurrent-function-calls-is-almost-too-easy">Making concurrent function calls is almost <em>too</em> easy</h3>
+
+<p>I was trying to make some HTTP GET requests with goroutines and very quickly learned that I would overwhelm the machine running it and it would fail with a “too many open files” error. Trying to throttle those concurrent requests to a manageable amount was not nearly as easy as creating all of them. The pattern I came across <a href="http://www.golangpatterns.info/concurrency/parallel-for-loop">using semaphores</a> seemed a bit convoluted for a language that’s supposed to make concurrency “easy.”</p>
+
+<h3 id="still-need-native-drivers-to-connect-to-oracle">Still need native drivers to connect to Oracle</h3>
+
+<p>This is a biggie in the large organization where I work.  We use Oracle heavily, and it would be great to have executables that were able to connect to Oracle without native Oracle drivers installed separately.  Alas, this is nothing new, however, since in the Node.js and Ruby world, this is the standard as well.  It’s not the end of the world, but using Oracle in Java is still a heck of a lot easier.</p>
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          
+          <a class="btn btn-primary float-right" href="/on-learning-vim-false-starts-pain-and-how-to-get-past-it/" data-toggle="tooltip" data-placement="top" title="On Learning Vim: False Starts, Pain, and Overcoming the Hump">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:mattm@theothermattm.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://mastodon.social/@theothermattm">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-grin-beam fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/theothermattm">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/theothermattm">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy;  2023</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/scripts.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+
+</body>
+
+</html>

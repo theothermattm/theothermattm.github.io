@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Where to start with Node.js as a Java developer in 2017 - Matt @ Work
+    
+  </title>
+
+  <meta name="description" content="Recently a friend of mine who is a veteran Java developer was asking me about Node.js development. He tried to do some Node development 3 or 4 years ago, and...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://code.theothermattm.com/where-to-start-with-node-in-2017/">
+  <link rel="alternate" type="application/rss+xml" title="Matt @ Work" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Matt @ Work</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/posts">Posts</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/img/clean/bg-post.jpg')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Where to start with Node.js as a Java developer in 2017</h1>
+            
+            <span class="meta">Posted by
+              <a href="#">theothermattm</a>
+              on January 07, 2017 &middot; <span class="reading-time" title="Estimated read time">
+  
+   9 mins  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>Recently a friend of mine who is a veteran Java developer was asking me about Node.js development.  He tried to do some Node development 3 or 4 years ago, and got frustrated with the lack of tools and Javascript callback hell.     I tried to tell him that things have changed greatly since then, but found myself not able to formulate a good response in the moment.  He had also read <a href="https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f">"How It Feels To Learn Javascript in 2016"</a>, which is <em>really</em> funny, but isn't exactly a vote of confidence to try Node again!</p>
+
+<p>Shortly after, I came across <a href="https://dev.to/grahamcox82/why-i-struggle-with-node">"Why I Struggle With Node"</a> by Graham Cox.  It's a great post about why he loves Node.js, but gets frustrated with its ecosystem and prefers that of Java.  </p>
+
+<p>Having been a Java developer for 7 years before switching to do mostly Javascript development, I can say that I agree with many of Graham's sentiments.  The Java ecosystem is much more mature and the tools are great. There are many things I miss. But I don't get frustrated with Javascript's tooling as much.  I actually find the Javascript ecosystem and its tools invigorating, as long as you know where to start...</p>
+
+<p>The post made me think of my conversation with my friend.  I linked to Graham's post as a starting point, added some additional thoughts and sent them to my friend to give him a place to start with Node again.  After I wrote it up, I thought it might be useful to other Java developers who haven't taken the dive into Node.js and would like to, but might be intimidated or not know where to start.</p>
+
+<p>If you're in that boat, I suggest you first <a href="https://dev.to/grahamcox82/why-i-struggle-with-node">read Graham's post</a>. It has a great list of tools to start with that translate well into front end code too.  </p>
+
+<p>After you read that post, here are my notes and addons that I think might be helpful if you are coming into Node development from Java in the beginning of 2017:</p>
+
+<h1 id="learningjavascript">Learning Javascript</h1>
+
+<p>If you don't already have a good grasp on the Javascript language, or consider yourself just good enough to be dangerous, I found <a href="http://www.2ality.com/2013/06/basic-javascript.html">"Basic Javascript for the Impatient Programmer"</a> to be particularly useful in improving my understanding of the language.  There's tons of great books as well out there that you can easily find.</p>
+
+<p>Also, before you dive into creating a full app or start setting up tools, learn the <a href="https://spring.io/understanding/javascript-promises">Promise</a> API and use it from the start in your code.  It will make your code easier to reason about, and will make your life much more pleasant once you get past the initial learning curve.  If you can, use the <a href="http://bluebirdjs.com/">Bluebird</a> library for Promises.  It has lots of great extras on top of the native implementation, and rumor has it that <a href="http://stackoverflow.com/a/34961040/288935">it's even faster</a>.</p>
+
+<h1 id="building">Builds</h1>
+
+<p>Like Graham, I use <a href="http://gruntjs.com/">Grunt</a> for building, too. I haven't tried Gulp, I'm sure it's great, but I've used Grunt for a while and have found it effective.  Though, like Graham, I do miss the fact that Maven takes care of a lot of the gruntwork (ha ha!) for you.  For my team's apps, we have separate Grunt tasks and configurations for building front end and back end code since folder structures are different.</p>
+
+<h1 id="transpilers">Transpilers</h1>
+
+<p>I don't use Babel. If I'm being honest, the whole transpiler thing is a mystery to me. I kinda get it: You want to use new features in the language, especially in a browser environment that adapts rather slowly.  But if you're writing production code that needs to be supported by a team with varying levels of Javascript knowledge, it seems to add unnecessary complexity. It's hard enough keeping up with Javascript, let alone when you do source to source compiling.  It will also make your toolchain a lot easier to configure, and your debugging a lot more straightforward.</p>
+
+<h1 id="codecoverage">Code Coverage</h1>
+
+<p>This is mentioned in the post but I thought I'd provide what I've used:  <a href="https://github.com/taichi/grunt-istanbul">Istanbul through Grunt</a>.  It's nice and simple and does the job well.</p>
+
+<h1 id="logging">Logging</h1>
+
+<p>Graham mentions that Node logging isn't as nice as what he's used to in Java.  That's true, but I've used <a href="https://github.com/winstonjs/winston">Winston</a> quite effectively in production apps.</p>
+
+<h1 id="debugging">Debugging</h1>
+
+<p>Graham is right, debugging in Node is hard. I attribute some of that to it's asynchronous nature, though. </p>
+
+<p>I've used <a href="https://www.npmjs.com/package/node-debug">node-debug</a> effectively as a debugger. It's quite nice, but a real pain to setup. But, if I'm being honest again, usually I try to use <a href="https://github.com/winstonjs/winston">Winston</a> (mentioned above) to put some nice low-level logging statements in place so I can debug with those, then turn logging levels up and down as needed.  Sometimes those low level statements help when you'd least expect it.</p>
+
+<h1 id="applicationwiring">Application Wiring</h1>
+
+<p>When I first started with Node, we were using a dependency injection framework in Node since my team was used to using Spring in Java.  After a while, we just got frustrated with it and abandoned it.</p>
+
+<p>Javascript is a dynamic language, so it's really easy to stub and mock things out.  Use something like <a href="https://www.npmjs.com/package/proxyquire">Proxyquire</a> to trivially inject mocks in tests.</p>
+
+<h1 id="integrationtesting">Integration Testing</h1>
+
+<p>Graham's comments about integration testing being much easier in Java are spot on. I haven't come across nearly as many drop in, in-memory replacements for connected systems like databases or message queues.  This makes it tough to integration test.  What I've done in the past is to create throwaway Continuous Integration database instances at the beginning of the tests and then clear them out at the end of the tests.  It's not that bad once you set it up once, but I yearn for the ease of using something like HSQL in Java.</p>
+
+<h1 id="developmentenvironmentsanddocker">Team Development Environments and Docker</h1>
+
+<p>My team has half Windows users and half Mac users.  It makes for a challenging environment for everyone to setup their development environment in Node.  </p>
+
+<p>If you're on a team with developers using multiple platforms, and deploy to Linux, what I recommend is to create a Dockerfile which defines your development environment. Then, use a <a href="https://docs.docker.com/engine/tutorials/dockervolumes/">Docker volume mount</a> to put your source code inside the container. (Side note:  Use an <a href="https://hub.docker.com/_/node/">official Node.js Docker image as your base image</a>). This lets you use normal Docker build/run commands to bootstrap your dev environment.  The volume mount lets you dynamically update your code so you can still iterate fast, as if you were working on your local machine.  It works well across platforms (no worrying about exceptions in Windows), and as a bonus, if you ever want to run your app in a Docker container, you've already got it more than halfway there.  I'm hoping to post more about this in the future.</p>
+
+<h1 id="goenjoy">Go enjoy!</h1>
+
+<p>I've been developing in Node for about 3 years now, and I still really love the developer experience.  Sure, I'm probably not using the latest and greatest tools that just came out, but this workflow has gotten me to a good place where I can be very productive and crank out some good quality code.</p>
+
+<p>I hope some of these notes help you do the same.  </p>
+
+<p>What tools/techniques/libraries did I miss that were important for you when you came to Node from Java?</p>
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/ask-why/" data-toggle="tooltip" data-placement="top" title="Ask 'Why?' to Make Better Software">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+          <a class="btn btn-primary float-right" href="/show-dont-tell/" data-toggle="tooltip" data-placement="top" title="Show, don’t tell">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:mattm@theothermattm.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://mastodon.social/@theothermattm">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-grin-beam fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/theothermattm">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/theothermattm">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy;  2023</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/scripts.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+
+</body>
+
+</html>

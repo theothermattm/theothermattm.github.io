@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    So many Linux hosts, so little time - Matt @ Work
+    
+  </title>
+
+  <meta name="description" content="On a given day, I’m interacting with at least 10 different Linux servers. Whenever I used to shut my laptop, I got frustrated having to reopen ssh connection...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://code.theothermattm.com/so-many-linux-hosts-so-little-time/">
+  <link rel="alternate" type="application/rss+xml" title="Matt @ Work" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Matt @ Work</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/posts">Posts</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/img/clean/bg-post.jpg')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>So many Linux hosts, so little time</h1>
+            
+            <span class="meta">Posted by
+              <a href="#">theothermattm</a>
+              on March 01, 2015 &middot; <span class="reading-time" title="Estimated read time">
+  
+   11 mins  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>On a given day, I’m interacting with at least 10 different Linux servers.  Whenever I used to shut my laptop, I got frustrated having to reopen ssh connections to every server I connected to.  I also got myself into terminal tab overload, with a separate tab open for every server I connected to.  This is no way to live!</p>
+
+<p>Perhaps you interact with more.  A lot more.  Or even just more than one.  If so, you’ve probably experienced similar frustration.</p>
+
+<p>I found a pretty good solution to both of these issues using <a href="http://tmux.sourceforge.net/">tmux</a> and ssh.  In this post, I’ll describe my workflow for working with my many Linux servers.</p>
+
+<h1 id="the-approach">The Approach</h1>
+
+<p>The overall idea is to pick a primary remote host to use as your “Home Base” and manage all your other connections through it.  This could be referred to as a “<a href="http://en.wikipedia.org/wiki/Bastion_host">bastion host</a>”), though in this case you’re not using it for security, but convenience.</p>
+
+<p>Then, use a <a href="http://en.wikipedia.org/wiki/Terminal_multiplexer">Terminal Multiplexer</a> to keep your all your SSH sessions open on that host. For this article, I will focus on <a href="http://tmux.sourceforge.net/">tmux</a>.</p>
+
+<p>By using a multiplexer, you can keep your terminal sessions open perpetually on a remote host. If you get disconnected from your local developer machine, you can just connect back to your “primary” remote host, then pick your connection, and be on your way.</p>
+
+<p>Your terminal output should even be saved and you can very easily switch between them without multiple tabs or windows open on your local development machine.  Nice!</p>
+
+<p>If you’ve used tmux before, this should be pretty straightforward.  If you haven’t, consider this a nice way to get your feet wet getting started with it.</p>
+
+<h1 id="the-ingredients">The Ingredients</h1>
+
+<ul>
+  <li>Lots of Linux servers to connect to</li>
+  <li><a href="http://www.openssh.com/">Open SSH</a> installed on your developer machine</li>
+  <li>If you’re on OS X or Linux, you already have it.  For Windows, <a href="http://cygwin.wikia.com/wiki/Sshd">Use Cygwin</a>)</li>
+  <li>A remote Linux server that you can install packages on</li>
+</ul>
+
+<h1 id="the-recipe">The Recipe</h1>
+
+<h2 id="pick-your-home-base-host">Pick Your Home Base host</h2>
+
+<p>First off, pick your Home Base host.  It can be one of the servers you always connect to.  You need to be able to SSH into this host and it needs to be able to:</p>
+
+<ul>
+  <li>Stay up perpetually (or at least more than you close your laptop)</li>
+  <li>Keep SSH connections open indefinitely to other servers</li>
+  <li>Connect to all your servers.  Really, it should be inside the same firewall.</li>
+</ul>
+
+<p>You also need the ability to install packages on the host (via apt-get, yum, or 
+your favorite package manager).</p>
+
+<h2 id="install-tmux-on-your-home-base-host">Install tmux on your Home Base host</h2>
+
+<p>If you don’t already have it, install <a href="http://tmux.sourceforge.net/">tmux</a> on 
+your Home Base.  Using apt-get as a package manager, it should be as simple as:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get update &amp;&amp; sudo apt-get install tmux
+</code></pre></div></div>
+
+<p>(Using Yum should be very similar)</p>
+
+<h3 id="cant-install-packages">Can’t install packages?</h3>
+
+<p>If you don’t have the ability to install packages, you can also check to see if you already have <a href="http://tmux.sourceforge.net/">tmux</a> (run <code class="language-plaintext highlighter-rouge">which tmux</code>) or (or <a href="http://www.gnu.org/software/screen/">GNU Screen</a> (<code class="language-plaintext highlighter-rouge">which screen</code>).  If you already have one of those, you’re golden!</p>
+
+<p>If GNU Screen is your only option, this approach will still work, but I will only outline the detailed steps for tmux below.</p>
+
+<h2 id="got-ssh-keys">Got SSH Keys?</h2>
+
+<p>If not, start using them. It is not only secure, but a huge timesaver over remembering and entering passwords 
+all the time.  <a href="https://help.github.com/articles/generating-ssh-keys/">GitHub has a great reference to get you going</a>.</p>
+
+<p>Make sure you use a passphrase along with your key for extra security. There are even ways to <a href="https://help.github.com/articles/working-with-ssh-key-passphrases/">cache your passphrase</a> so you don’t need to type it all the time.</p>
+
+<h2 id="setup-ssh-keys-on-your-home-base">Setup SSH keys on your Home Base</h2>
+
+<p>You have some options here:</p>
+
+<p>You can just reuse your same private key on your local developer machine and your Home Base host.  This gives you the flexibility to connect to the same servers with your local developer machine or your Home Base in a pinch.  But, <a href="http://superuser.com/questions/189355/is-it-ok-to-share-private-key-file-between-multiple-computers-services">it could be considered less secure</a>.</p>
+
+<p>If you want extra security, you can generate another ssh keypair for your home base server, in addition to the one you’ll use for your local developer machine.  That way, you have an individual key for each machine you’ll be connecting with.  The downside is more keys and passphrases to manage and remember.</p>
+
+<h2 id="copy-around-your-public-keys">Copy around your public keys</h2>
+
+<p>Now that you’ve got an SSH keypair (or keypairs), make sure that you copy your public key to your Home Base host, so you can easily ssh into that.</p>
+
+<p>If you decide to re-use your private key, copy that over to your Home Base server. Otherwise, generate another keypair for your home base server.</p>
+
+<p>This is how I copy around my public SSH key around:</p>
+
+<script src="https://gist.github.com/theothermattm/8786339.js"></script>
+
+<p>Next, repeat those same steps to copy your public key to each and every server
+you regularly connect to.</p>
+
+<p>This step is probably the most tedious, but it will pay off in time savings within a day.</p>
+
+<h2 id="setup-ssh-configs">Setup SSH Configs</h2>
+
+<p>One snag that I hit early on with ssh was dropped connections due to inactivity.  To keep connections
+open, I set the ssh configuration option <code class="language-plaintext highlighter-rouge">ServerAliveInterval</code> on each host to 60 seconds.  This will periodically
+ping the server to keep the connection alive.</p>
+
+<p>Here’s what you can put in your <code class="language-plaintext highlighter-rouge">.ssh/config</code> file in your Home Base to set this
+for the server ‘myremoteserver1.yourdomain.com’:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Host myremoteserver1.yourdomain.com
+    ServerAliveInterval 60
+</code></pre></div></div>
+
+<p>You can also do this for all hosts by doing this:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Host *
+    ServerAliveInterval 60
+</code></pre></div></div>
+
+<h2 id="start-spinning-up-sessions-with-tmux">Start spinning up sessions with tmux</h2>
+
+<p>If you’ve never used tmux before, <a href="https://robots.thoughtbot.com/a-tmux-crash-course">reading about its features</a> is a good idea.  For now, I’ll just give the basics to get a good multiple server workflow going.</p>
+
+<p>SSH into your Home Base host, and pick one of the servers you frequently connect to and start a tmux session
+for it, you’ll type the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tmux new-session -s myremoteserver1
+</code></pre></div></div>
+
+<p>You’ll then see a nice green bar at the bottom of your screen telling you you’re in the comforting arms of a tmux session.</p>
+
+<p>Now, ssh into one of your frequently access hosts in that session. Go ahead and play around a bit.</p>
+
+<p>When you’re ready, create another tmux session for another host by opening a new tmux session with a different name related to that server.</p>
+
+<p>You’ll do this by triggering the tmux “prefix” keybinding.  This keybinding will put you into tmux’s control.  By default, the tmux prefix keybinding is <code class="language-plaintext highlighter-rouge">CTRL+b</code>.</p>
+
+<p>To start a new session, the key sequence you’ll start with is:  <code class="language-plaintext highlighter-rouge">CTRL+B :</code></p>
+
+<p>That’s: Hold CTRL and B, followed by a colon (:).</p>
+
+<p>You’ll now see a yellow bar at the bottom of your terminal you can type into.</p>
+
+<p>Type the following (should look familiar!): <code class="language-plaintext highlighter-rouge">new-session -s myremoteserver2</code></p>
+
+<p>Now you’ll be put into a new tmux session named for your second remote server.</p>
+
+<p>Then, SSH into your second server.  Play around.</p>
+
+<p>Repeat these steps for any frequently accessed servers.</p>
+
+<h2 id="switch-around">Switch around</h2>
+
+<p>Phew, that was a lot of work.  So, what’s the big deal?</p>
+
+<p>Well, now you can easily switch around between these different sessions to your heart’s content.</p>
+
+<p>And they’ll stick around after your laptop drops Wifi!</p>
+
+<p>You can do this by hitting the tmux prefix plus the “s” key.  What that key combo would look like is: <code class="language-plaintext highlighter-rouge">CTRL+B s</code></p>
+
+<p>You should now see a menu with the two sessions you created.  Select one of them with the arrow keys and press enter and you should be able to switch back and forth.</p>
+
+<p>Since your sessions are still open, you’ll have all your buffer output still there from when you last left it.  And
+since your SSH won’t time out, you can keep these open as long as you need to.</p>
+
+<h2 id="disconnect-and-try-again">Disconnect and try again</h2>
+
+<p>Let’s say you close your laptop and take a break.  You connect back to wifi and
+want to get back onto your remote hosts.  If you ssh into your Home Base again, and type: <code class="language-plaintext highlighter-rouge">tmux at</code></p>
+
+<p>You will be put right back into those same tmux sessions (the <code class="language-plaintext highlighter-rouge">at</code> means “attach”).  Everything preserved!</p>
+
+<p>This will stay until you exit your sessions in tmux or tmux is terminated on your Home Base host.</p>
+
+<h2 id="dont-forget-to-clean-up-your-toys">Don’t forget to clean up your toys</h2>
+
+<p>Periodically, it’s important to go through your tmux sessions and prune them for servers you don’t need to actively be connected to.  You can do this by again doing this tmux prefix and a colon: <code class="language-plaintext highlighter-rouge">CTRL+B :</code></p>
+
+<p>Then at the yellow prompt, type: <code class="language-plaintext highlighter-rouge">kill-session -t sessionname</code></p>
+
+<p>Where the session name is one of the ones you created earlier.</p>
+
+<h1 id="next-steps">Next steps</h1>
+
+<p>As I wrote this article, I realized this was really a big explanation of a tmux/multiplexer use case.  This workflow is really scratching the surface of what tmux can do. If you find this way of working effective, I would encourage you to learn more about tmux.</p>
+
+<p>As you learn more, you will see it is <em>very</em> configurable and powerful.  People also <a href="https://gist.github.com/theothermattm/c00449800a9c1cb7193a">share their tmux.conf files</a> and you can learn a lot about what it can do that way, as well.</p>
+
+<h1 id="caveats">Caveats</h1>
+
+<p>I have the comparative luxury of connecting to all these machines inside my organization’s firewall.  I can’t speak for the security implications of leaving open SSH connections like this across the “wild” internet.  I would love to see comments about that situation.</p>
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/are-you-still-clicking/" data-toggle="tooltip" data-placement="top" title="Are you still clicking? There's gotta be a better way!">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+          <a class="btn btn-primary float-right" href="/keep-the-web-simple/" data-toggle="tooltip" data-placement="top" title="Don't Forget:  Keep the Web Simple">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:mattm@theothermattm.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://mastodon.social/@theothermattm">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-grin-beam fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/theothermattm">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/theothermattm">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy;  2023</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/scripts.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+
+</body>
+
+</html>
