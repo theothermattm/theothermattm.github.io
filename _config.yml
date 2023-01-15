@@ -30,6 +30,7 @@ mastodon_url: https://mastodon.social/@theothermattm
 
 # Build settings
 theme: jekyll-theme-clean-blog
+remote-theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
   - jekyll-paginate
