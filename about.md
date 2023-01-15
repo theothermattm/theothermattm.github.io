@@ -15,7 +15,7 @@ I like to build stuff.
 
 I've been working with software development since 2006 in a variety of roles from support to team lead, to architect, to manager, etc.
 
-I tend to lean towards Cloud Engineering, Backend/API/serverside development. I've done quite a bit of work in Node.js and Javascript, but love lots of other languages. I'm also a bit of a database nerd.
+I tend to lean towards Backend/API/serverside development, and Cloud Engineering/Platform Engineering/DevOps/Whatever It's Called Today. I'm also a database nerd. I've done quite a bit of work in Java and Node.js/Javascript. But I love lots of other languages. 
 
 These days, I mostly manage engineers. I've found I love the combination of helping people and technology.
 
