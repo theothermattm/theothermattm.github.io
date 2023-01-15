@@ -6,6 +6,7 @@ author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=226'
 permalink: /software-engineering-culture/
+background: 'img/clean/bg-post.jpg'
 categories:
     - management
 tags:

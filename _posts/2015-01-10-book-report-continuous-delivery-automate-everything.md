@@ -6,6 +6,7 @@ author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=78'
 permalink: /book-report-continuous-delivery-automate-everything/
+background: 'img/clean/bg-post.jpg'
 categories:
     - coding
 tags:

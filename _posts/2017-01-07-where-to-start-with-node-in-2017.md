@@ -6,6 +6,7 @@ author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=183'
 permalink: /where-to-start-with-node-in-2017/
+background: 'img/clean/bg-post.jpg'
 categories:
     - coding
 tags:

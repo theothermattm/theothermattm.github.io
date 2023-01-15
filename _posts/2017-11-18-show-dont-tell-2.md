@@ -6,6 +6,7 @@ author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=214'
 permalink: /show-dont-tell/
+background: 'img/clean/bg-post.jpg'
 categories:
     - career
 ---

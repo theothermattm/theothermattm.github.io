@@ -6,6 +6,7 @@ author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=159'
 permalink: /keep-the-web-simple/
+background: 'img/clean/bg-post.jpg'
 categories:
     - coding
 tags:
