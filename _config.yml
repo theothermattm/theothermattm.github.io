@@ -26,6 +26,7 @@ url: 'https://theothermattm.github.io/'
 github_username:  theothermattm
 linkedin_username: theothermattm
 mastodon_url: https://mastodon.social/@theothermattm
+google_analytics: G-C06BSKXDG4
 
 # for github pages
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
