@@ -5,10 +5,10 @@ date: '2014-12-01T01:41:30+00:00'
 author: theothermattm
 layout: page
 guid: 'https://code.theothermattm.com/?page_id=4'
-background: 'img/skyline.jpg'
+background: '/img/skyline.jpg'
 ---
 
-![Matt](../img/matt-blackhat.jpg){: width="250" }
+![Matt](/img/matt-blackhat.jpg){: width="250" }
 # Hi, I'm Matt
 
 I like to build stuff.

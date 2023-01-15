@@ -6,7 +6,7 @@ author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=235'
 permalink: /the-goodwill-budget/
-background: 'img/clean/bg-post.jpg'
+background: '/img/clean/bg-post.jpg'
 categories:
     - career
     - management

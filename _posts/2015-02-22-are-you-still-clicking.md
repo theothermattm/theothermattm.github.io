@@ -6,7 +6,7 @@ author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=126'
 permalink: /are-you-still-clicking/
-background: 'img/clean/bg-post.jpg'
+background: '/img/clean/bg-post.jpg'
 categories:
     - coding
     - linux

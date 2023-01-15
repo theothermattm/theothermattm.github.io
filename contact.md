@@ -2,7 +2,7 @@
 layout: page
 title: Page Title
 description: This is the page description.
-background: 'img/clean/bg-contact.jpg'
+background: '/img/clean/bg-contact.jpg'
 ---
 
 # [Mastodon](https://mastodon.social/@theothermattm)

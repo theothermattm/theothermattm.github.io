@@ -6,7 +6,7 @@ author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=271'
 permalink: /having-kids-made-me-a-better-developer/
-background: 'img/clean/bg-post.jpg'
+background: '/img/clean/bg-post.jpg'
 categories:
     - career
 ---

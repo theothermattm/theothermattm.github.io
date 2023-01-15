@@ -6,7 +6,7 @@ author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=50'
 permalink: /im-a-computer-science-dropout/
-background: 'img/clean/bg-post.jpg'
+background: '/img/clean/bg-post.jpg'
 categories:
     - career
 tags:

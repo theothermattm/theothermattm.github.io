@@ -6,7 +6,7 @@ author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=7'
 permalink: /on-learning-vim-false-starts-pain-and-how-to-get-past-it/
-background: 'img/clean/bg-post.jpg'
+background: '/img/clean/bg-post.jpg'
 categories:
     - coding
 tags:

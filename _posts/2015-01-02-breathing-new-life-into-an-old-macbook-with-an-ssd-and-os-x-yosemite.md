@@ -6,7 +6,7 @@ author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=94'
 permalink: /breathing-new-life-into-an-old-macbook-with-an-ssd-and-os-x-yosemite/
-background: 'img/clean/bg-post.jpg'
+background: '/img/clean/bg-post.jpg'
 categories:
     - hardware
     - mac
