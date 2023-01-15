@@ -21,4 +21,6 @@ These days, I mostly manage engineers. I love the combination of helping people 
 
 You can learn more about what I do for a living on my [LinkedIn](https://www.linkedin.com/in/theothermattm/) and my [Github](https://github.com/theothermattm)
 
+I'm also a firm believer in the open web. That's why I have an old fashioned blog on the web instead of a medium account. 
+
 I work to live. When living, I'm a dad to two kids and a husband. I run a lot. When I have time I play guitar. I also enjoy photography but don't get to do it much beyond snapping photos of the family on the iPhone. You can see some of my older stuff [on Flickr](http://flickr.com/theothermattm), though.
