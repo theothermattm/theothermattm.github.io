@@ -1,6 +1,6 @@
 ---
 id: 126
-title: 'Are you still clicking? There\'s gotta be a better way!'
+title: "Are you still clicking? There's gotta be a better way!"
 date: '2015-02-22T20:50:09+00:00'
 author: theothermattm
 layout: post

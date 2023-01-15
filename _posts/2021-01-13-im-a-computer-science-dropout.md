@@ -1,6 +1,6 @@
 ---
 id: 50
-title: 'I\'m a Computer Science Dropout'
+title: "I'm a Computer Science Dropout"
 date: '2021-01-13T19:42:44+00:00'
 author: theothermattm
 layout: post

@@ -20,7 +20,8 @@ categories:
 
 <br><br>
 
-<img src="../images/coding-horror-kids.png"/>
+<img src="../img/coding-horror-kids.png" width="350"/>
+
 
 <br><br>
 
