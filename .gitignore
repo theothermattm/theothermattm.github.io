@@ -1,7 +1,7 @@
+_config.yml
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 _site
-_config.yml
 # putting this here to make local development a little easier, can force push over
 # it when necessary
