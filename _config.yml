@@ -30,7 +30,7 @@ mastodon_url: https://mastodon.social/@theothermattm
 # for github pages
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 # for local testing
-theme: jekyll-theme-clean-blog
+# theme: jekyll-theme-clean-blog
 
 baseurl: ''
 
