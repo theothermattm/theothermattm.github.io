@@ -29,8 +29,7 @@ linkedin_username: theothermattm
 mastodon_url: https://mastodon.social/@theothermattm
 
 # Build settings
-#theme: jekyll-theme-clean-blog
-remote-theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
   - jekyll-paginate
