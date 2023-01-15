@@ -4,4 +4,4 @@
 _site
 # putting this here to make local development a little easier, can force commit over
 # it when necessary, which shouldn't be often
-./_config.yml
+/_config.yml
