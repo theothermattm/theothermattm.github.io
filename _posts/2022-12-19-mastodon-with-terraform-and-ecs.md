@@ -12,9 +12,7 @@ tags:
     - aws
 ---
 
-_I wrote the original version of this post for my employer, [DEPT® Agency](https://engineering.deptagency.com), you can view it [here](https://engineering.deptagency.com/create-your-own-mastodon-server-on-aws-with-terraform)_
-
-*TL;DR:* At DEPT® Agency, I worked to update and open-source Terraform scripts to bootstrap your own Mastodon server using AWS, Elastic Container Service, and Fargate.  
+*TL;DR:* At my employer, [DEPT® Agency](https://deptagency.com), I updated and open-sourced Terraform scripts to bootstrap your own Mastodon server using AWS, Elastic Container Service, and Fargate.  
 
 It all started with a simple request to see how hard it would be to setup a Mastodon server for my company.
 
@@ -113,3 +111,5 @@ I hit a couple bumps in the road making changes to container definitions in ECS 
 I also hit a knowledge wall at one point where messages from other servers were not being received by ours.  I spent a lot of time with networking settings, but in the end, posted a question on the [Mastodon Github discussion forum](https://github.com/mastodon/mastodon/discussions/22310) which was super helpful and pointed me in the right direction.
 
 My biggest challenge was finding high-level information about mastodon's architecture and infrastructure.  Mastodon has all kinds of fantastic documentation about the details of how to set up a server and how to configure it.  They also have great introductory material on how to use and administer Mastodon.  Everything in between is a bit of a black box.  I hope that this post helps someone else fill in those gaps.
+
+_I wrote the original version of this post for my employer, [DEPT® Agency](https://engineering.deptagency.com), you can view it [here](https://engineering.deptagency.com/create-your-own-mastodon-server-on-aws-with-terraform)_
