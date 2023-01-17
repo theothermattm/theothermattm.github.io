@@ -1,6 +1,6 @@
 ---
 title: 'I believe I can fly.io [A fly.io review]'
-date: '2022-12-19'
+date: '2023-01-17'
 author: theothermattm
 layout: post
 permalink: /mastodon-with-terraform-and-ecs
@@ -11,8 +11,6 @@ tags:
     - cloud
     - aws
 ---
-
-
 
 I remember when I heard that Heroku was getting acquired by Salesforce - To say I was disappointed is an understatement.  Heroku pioneered developer-centric, easy-to-use webapp hosting and they did it very well.  But, as expected, things started slowly going downhill after the Salesforce acquisition - Culminating in them [removing their free hobbyist hosting option](https://blog.heroku.com/next-chapter).
 
@@ -136,4 +134,4 @@ Right now, it's pretty much the perfect option for hobbyists or a team with one 
 In the meantime, if you need a simple-to-use deployment option for a production application on a team, my opinion is that you should stick with Heroku, or investigate using Elastic Beanstalk on AWS.  Of course, there are other options as well ([Aptible](https://www.aptible.com/) is a very interesting one I've heard about) but these are the ones my employer has experience with. 
 
 
-_Note: I wrote the original version of this post for my employer, [DEPT® Agency](https://engineering.deptagency.com), you can view it here (TODO))_
+_Note: I wrote the original version of this post for my employer, [DEPT® Agency](https://engineering.deptagency.com), you can view it [here](https://engineering.deptagency.com/our-experience-with-fly-io)_
