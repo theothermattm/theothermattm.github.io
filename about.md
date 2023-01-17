@@ -13,14 +13,16 @@ background: '/img/skyline.jpg'
 
 I like to build stuff.
 
-I've been working with software development since 2006 in a variety of roles from support to team lead, to architect, to manager, etc.
+I work to live. When living, I'm a dad to two kids and a husband. I run a lot. When I have time I play guitar. I also enjoy photography but don't get to do it much beyond snapping photos of the family on the iPhone. You can see some of my older stuff [on Flickr](http://flickr.com/theothermattm), though.
 
-I tend to lean towards Backend/API/serverside development, and Cloud Engineering/Platform Engineering/DevOps/Whatever It's Called Today. I'm also a database nerd. I've done quite a bit of work in Java and Node.js/Javascript. But I love lots of other languages. 
+I've been working in software since 2005 in a variety of roles from support to team lead, to architect, to manager, etc.
+
+I lean towards Backend/API/serverside development, and Cloud Engineering/Platform Engineering/DevOps/Whatever It's Called Today. I'm also a database nerd. I've done quite a bit of work in Java and Node.js/Javascript. But I love lots of other languages. 
+
+You can read about some of the things I've helped build in my [Portfolio](/portfolio).
 
 These days, I mostly manage engineers. I love the combination of helping people grow and still being involved deeply with technology.
 
 You can learn more about what I do for a living on my [LinkedIn](https://www.linkedin.com/in/theothermattm/) and my [Github](https://github.com/theothermattm)
 
 I'm also a firm believer in the open web. That's why I have an old fashioned blog on the web instead of a medium account. 
-
-I work to live. When living, I'm a dad to two kids and a husband. I run a lot. When I have time I play guitar. I also enjoy photography but don't get to do it much beyond snapping photos of the family on the iPhone. You can see some of my older stuff [on Flickr](http://flickr.com/theothermattm), though.

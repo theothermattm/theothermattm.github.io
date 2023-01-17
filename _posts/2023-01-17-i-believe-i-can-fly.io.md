@@ -3,7 +3,7 @@ title: 'I believe I can fly.io [A fly.io review]'
 date: '2023-01-17'
 author: theothermattm
 layout: post
-permalink: /mastodon-with-terraform-and-ecs
+permalink: /a-fly-io-review
 background: '/img/clean/bg-post.jpg'
 categories:
     - coding
