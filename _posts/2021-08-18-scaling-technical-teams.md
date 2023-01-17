@@ -13,7 +13,7 @@ tags:
 
 > "How can I move faster?" 
 
-I'm sure we've all heard this many times from bosses and clients. Regardless of team size, industry or maturity, I consistently see teams struggle to scale. Even the ones that do it well have some serious learning to do. In some extreme scenarios I've heard "I am spending more on software, yet, somehow, I're actually seeing less software get released. How the hell is this happening?"
+I'm sure we've all heard this many times from bosses and clients. Regardless of team size, industry or maturity, I consistently see teams struggle to scale. Even the ones that do it well have some serious learning to do. In some extreme scenarios I've heard "I am spending more on software, yet, somehow, I'm seeing less software get released. How the hell is this happening?"
 
 Those of us who've been in software for a while are probably very familiar with [Brooks' Law and The Mythical Man Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month) which states: 
 
@@ -23,7 +23,7 @@ This is what you're seeing when the situation described above occurs. It makes i
 
 Why should you care about scaling your team? Here are some symptoms of a team that is struggling with growth:
 
-* **Problems organizing work** - Entire teams stuck waiting on product requirements or on other teams, wasting time.
+* **Problems organizing work** - Entire teams stuck waiting on product requirements on other teams, wasting time.
 * Too many hurdles make the **slightest of changes to production take a very long time.** This leads to very frustrated business partners.
 * **Paralysis by analysis** - Teams stuck debating on how to implement something, again, wasting time.
 
@@ -37,9 +37,9 @@ This will sound cliche, but it all starts with hiring. You want to know how to s
 
 **Start with strong technical leadership.** Hire this talent first. By "technical leadership” I don't mean "managers." I mean player/coach talent who _do the work while building out a team_ , then move to full time leadership.
 
-When picking your technical leads, it's best to **prioritize communication skill and curiosity over technical ability**. You want a leader who is technically sound, but more importantly, you want a leader who asks good questions, exposes shortcomings, and _knows when they are in unfamiliar territory_. This type of person is also someone who can communicate with you and about your business with ease. Someone who can talk tech and also business is rare, so when you find it the cost may be high but it will be worth it.
+When picking your technical leads, it's best to **prioritize communication skill and curiosity over technical ability**. You want a technically sound leader, but more importantly, you want a leader who asks good questions, exposes shortcomings, and _knows when they are in unfamiliar territory_. This type of person is also someone who can communicate with you and about your business with ease. Someone who can talk tech and also business is rare, so when you find it the cost may be high but it will be worth it.
 
-If you nail your tech lead(s), you'll have a person who can ask the right questions to get projects started, who knows how to staff them with the right balance of people, and who will also contribute. To vet this person, leverage your personal network of technical people to help. Depending on your plans, you may want to hire a few of these people.
+If you nail your tech lead(s), you'll have a person who can ask the right questions to get projects started, who knows how to staff them with the right balance of people, and who will also contribute. To vet this person, leverage your network of technical people to help. Depending on your plans, you may want to hire a few of these people.
 
 After you hire your technical leaders, you want to make sure you **have a good balance between leaders and individual contributors**. Trust that your tech leads will lead this hiring effort and let them know how much you want to be involved. Don't just hire all senior engineers, or you'll have a situation where you have stalemates on technical decisions all the time as Senior Engineers tend to have strong opinions. 
 
@@ -49,7 +49,7 @@ Finally, make sure you **have a large enough product and/or business team to bac
 
 ### Organization
 
-After people, the next most important thing is organization - Of people and of work.
+After people, the next most important thing is organization - Of people and work.
 
 The big theme here is: Less is more. Put some basic constraints in place and _trust your teams_ to do the right things. You don't want everyone going wild, so things like making sure everyone's using the same language might be a good constraint. But, determining how individual teams run meetings and processes is only going to create frustration. Again, it's amazing what an empowered software team can do if you give them goals and leave them to their own devices.
 
@@ -89,7 +89,7 @@ Next, I'll tackle another area that's ripe for problems relating to scaling team
 
 [Tribal Knowledge](https://www.isixsigma.com/dictionary/tribal-knowledge/) is an often-used (and very unwoke) term for the stuff that your team knows but isn't codified yet. When you're starting up, there's no time or need to write those things down or automate them. It'll just slow you down. The fact that this knowledge is _just known_ on the team makes it a well oiled machine.
 
-But as you grow and new people come onto your software team, they only find out about these things by happenstance or even worse when an issue comes up and they're not sure how to fix it. You could consider the process of gaining this knowledge a tax on every new person on your team. In order to become fully productive, they need to absorb all that knowledge and the only way to do it is to give it time.
+But as you grow and new people come onto your software team, they only find out about these things by happenstance or even worse when an issue comes up and they're not sure how to fix it. You could consider the process of gaining this knowledge a tax on every new person on your team. To become fully productive, they need to absorb all that knowledge and the only way to do it is to give it time.
 
 This knowledge can be simple things like where the link to the deployment system is and what branch production is deployed from. Or, it can be skeletons (as in _skeletons in your closet)._ I often find that companies that grow quickly also have skeletons in their closets that only a handful of "the old guard” know.
 
@@ -110,14 +110,14 @@ Here are some other ideas to consider to get ahead of this as you think about sc
 
 ## Curiosity
 
-In our experience, the best developers on the best teams are very, very curious. They don’t just want to build the thing you ask, they want to know why what they’re building will be valuable. The best developers and teams know that if they understand the core of what a business is after, they can lend their own strengths of their technical discipline to making products better.
+In our experience, the best developers on the best teams are very, very curious. They don’t just want to build the thing you ask, they want to know why what they’re building will be valuable. The best developers and teams know that if they understand the core of what a business is after, they can lend the strengths of their technical discipline to making products better.
 
 Don’t treat a developer with lots of questions as a nuisance; embrace them and foster a culture  where asking those questions is not only rewarded but expected. If your software teams aren't asking lots of questions, consider that a potential red flag. Perhaps your tech leads are hoarding information! 
 
 
 ## Organize around information sharing
 
-Make sure that between you, your technical leads and individual team members there is a clear sense of who makes what decisions, who needs to be informed of them, and who doesn’t care at all. There’s a tool for that! [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) anyone? You don’t have to use something as formal  as a RACI matrix, but be inspired by the idea. Strive to make sure your team is able to make as many decisions as possible independently. 
+Make sure that between you, your technical leads and individual team members there is a clear sense of who makes what decisions, who needs to be informed of them, and who doesn’t care at all. There’s a tool for that! [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) anyone? You don’t have to use something as formal  as a RACI matrix, but be inspired by the idea. Strive to make sure your team can make as many decisions as possible independently. 
 
 When a team knows they’re empowered to make a decision, they will move much faster. And when they can’t make a decision, if they know exactly who to go to, then that decision will get to the right person a lot quicker. This, of course, assumes that when a decision needs to be made outside the team, that decision-maker makes it a priority to get that decision to them fast. Reward unblocking your teams throughout the organization.
 
@@ -134,7 +134,7 @@ Making sure that other developers can easily get started running a system locall
 So how can you get ahead of it? **Prioritize automation.** Whether it be through specific talent like DevOps or Site Reliability Engineers or Release Managers, or just making it one developer's priority to script things - Make sure that a new developer can get started in a few hours at the very most. At the very best, one script does _all_ thesetup for a new developer - they run the script, go have a coffee, and come back to a workstation ready to develop on.
 
 
-Be mindful that different developers have different preferred platforms they use. Some prefer to use Mac, some prefer to use Windows, others Linux. I are not fans of dictating tooling, so prefer automation methods that work across platforms like using Docker images for development setups, or alternatively provide different scripts for different platforms.
+Be mindful that different developers have different preferred platforms they use. Some prefer to use Mac, some prefer to use Windows, others Linux. I are not fans of dictating tooling, so prefer automation methods that work across platforms like using Docker images for development setups, or provide different scripts for different platforms.
 
 Oftentimes, the effort you put into scripting a local setup can be directly translated into deploying the application to a real environment. Even if the scripts aren't directly used, you can usually translate them into a new language/framework because _everything you need to set up is in code and not just written down._
 
@@ -161,7 +161,7 @@ I often hear from clients that they invest heavily in automated testing. Yet, wh
 
 It's easier to start by saying what _doesn't_ work in this area:
 
-* **Relying solely on unit tests in each individual component of the application.** This often just tests one particular case, but functionality of interdependent features often gets missed here. This will inevitably lead to more manual testing.
+* **Relying solely on unit tests in each component of the application.** This often just tests one particular case, but functionality of interdependent features often gets missed here. This will inevitably lead to more manual testing.
 * **Having too many automated front end tests**, such as in Selenium or Cypress. No matter how hard you try, these tests will be brittle and will break over time and require a lot of effort to maintain. What's worse than no tests at all? Tests that break all the time and you can't rely on them. Rely on these types of tests for absolutely crucial pieces of your software, main use cases and smoke testing to make sure that an app comes up after a restart. Do not try to test everything with them. I've yet to see an organization succeed at this over time.
 
 What does work is automating API tests. It doesn't matter what you use, but being able to work through key functionality cases using just a series of API calls is a good way of automating tests that strikes a good balance betIen making sure your whole application works together and being _easier_ (note not _easy_) to automate.
@@ -184,15 +184,15 @@ If you can come up with the right bounded contexts for services within your appl
 
 The simple act of being more explicit about the contract of a set of services is the important part. By defining the contract of a bounded context, you can then split work out across teams and make sure that they work with each other's code through those contracts.
 
-Once you hit a certain point, separate files will become unsustainable. You will smell the code rot from a mile away. Once you start to sense this oncoming disaster, it probably makes sense to create a separate API or application for some portion of your system. At that point in time, if you've created the right bounded context and have a well defined contract, this exercise will be a lot easier, and there will likely be a team who is already well versed in that particular service that needs to be split out.
+Once you hit a certain point, separate files will become unsustainable. You will smell the code rot from a mile away. Once you start to sense this oncoming disaster, it probably makes sense to create a separate API or application for some portion of your system. Then, if you've created the right bounded context and have a well defined contract, this exercise will be a lot easier, and there will likely be a team who is already well versed in that particular service that needs to be split out.
 
 Speaking of services...
 
 ### What about Microservices?
 
-The past ten years or so the buzzword "Microservices” thrown around as a panacea to fix many problems in scaling and organizing software. And of course, as with many technical buzzwords, there's no one definition of what a Microservice architecture really is. The most important thing to remember is: **Don't conflate a well organized application with Microservices.** A well organized application with separate domains is always a good idea. Microservices may or may not be a good idea.
+The past ten years or so the buzzword "Microservices” thrown around as a panacea to fix many problems in scaling and organizing software. And of course, as with many technical buzzwords, there's no one definition of what a Microservice architecture is. The most important thing to remember is: **Don't conflate a well organized application with Microservices.** A well organized application with separate domains is always a good idea. Microservices may or may not be a good idea.
 
-There _are_ many situations where a microservice architecture will help, but in order to "Do Microservices Right” you need all kinds of foundational architecture in place. For example, have you addressed these questions?
+There _are_ many situations where a microservice architecture will help, but to "Do Microservices Right” you need all kinds of foundational architecture in place. For example, have you addressed these questions?
 
 * How are you going to handle deployments across dozens or perhaps hundreds of services?
 * How will you handle transactions betIen services? 
@@ -206,7 +206,7 @@ When you use the ideas I outlined in the Code Organization section, you're effec
 
 ## Parting Thoughts
 
-You can probably tell by the sheer amount of content given to _non-technical_ topics here, I feel strongly that an organization that can scale is really driven by people, culture and communication, more so than technology. Remember that languages and platforms are tools to use  to get to a goal, not the goal itself.
+You can probably tell by the sheer amount of content given to _non-technical_ topics here, I feel strongly that an organization that can scale is driven by people, culture and communication, more so than technology. Remember that languages and platforms are tools to use  to get to a goal, not the goal itself.
 
 Good luck growing your team!
 
