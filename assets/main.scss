@@ -1,0 +1,14 @@
+---
+---
+
+@import "styles";
+
+.whateverman {}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+    padding: 50px 0;
+  }
+}
