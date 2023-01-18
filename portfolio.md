@@ -3,21 +3,21 @@ title: Portfolio
 date: '2023-01-01'
 author: theothermattm
 layout: page
-background: '/img/skyline.jpg'
+background: '/img/skyline.webp'
 ---
 
 # Things I'm proud to have worked on
 
-I've been in software since 2006, I've worked on lots of things. Most of them have been things I can't publicly share because they're behind corporate firewalls, require special access to get to, or I'm just not allowed to share them. 
+I've been in software since 2005. I've worked on lots of things, but most of them have been things I can't publicly share because they're behind corporate firewalls, require special access to get to, or I'm just not allowed to share them. 
 
 You can see a more traditional resume on [LinkedIn](https://linkedin.com/u/theothermattm). But, there are a few things which I'm very proud to share with the world outlined here.
 ## Creating an Engineering-Centric Culture at DEPT® Agency
 
-I've worked for a lot of clients at [DEPT® Agency](https://deptagency.com) and Rocket Insights, the Boston, MA based agency I worked for which DEPT® Acquired. I've made lots of software - But one of the things I'm most proud of is assembling a team of top notch engineers and fostering a maker-centric culture which attracted and retained good talent.
+I've made a lot of software for a lot of clients at [DEPT® Agency](https://deptagency.com) and Rocket Insights, the Boston, MA based agency I worked for which DEPT® Acquired. Outside of that, one of the things I'm most proud of is assembling a team of top notch engineers and creating an engineering-centric culture which attracted and retained good talent.
 
 One of the more public faces of this is DEPT®'s [Engineering Soapboxes](https://github.com/deptagency/engineering-soapboxes).
 
-You can read a [full explanation of what they are here](https://engineering.deptagency.com/introducing-web-blueprint-our-practices-for-web-development), but the gist is an open source volume of seasoned developers' takes on how to build software. I was responsible for bootstrapping them and getting the team to contribute.  I also contributed a bunch as well.
+You can read a [full explanation of what they are here](https://engineering.deptagency.com/introducing-web-blueprint-our-practices-for-web-development), but the gist is an open source volume of seasoned developers' takes on how to build software. I was responsible for bootstrapping them and getting the team to contribute.  I contributed a few soapbox artcles as well.
 
 ## The MITRE@Work Mobile Application
 
@@ -25,14 +25,13 @@ I was an architect and product manager of a mobile application used by the entir
 
 You can read a bit about it and see a small screenshot at [StepTwo](https://www.steptwo.com.au/award-winner/mitre-corporation-creating-a-mobile-app-to-get-things-done/) and also on [Google Play](https://play.google.com/store/apps/details?id=org.mitre.mobile.arcadia&hl=en_US&gl=US&pli=1).
 
-The application was created natively for both iOS (Swift) and Android natively. It was designed and coded from the ground up. It allowed employees to log time and view meetings on personal devices which was unprecented for the company at the time due to numerous security challenges due to the sensitive nature of MITRE's work for the Federal Government of the United States.
+The application was a native app for both iOS (Swift) and Android. It allowed employees to log time and view meetings on personal devices. This doesn't sound impressive, however due to the sensitive nature of MITRE's work for the Federal Government of the United States, being able to get this information on any device which was unprecented for the company at the time due to numerous security challenges.
 
-I staffed the team, designed the backend architecture and contributed a fair amount of backend Node.js code. This backend system had to navigate those security challenges in order to pass data safely from an internal datacenter through the public cloud and onto employee's personal devices safely.
+I staffed the team, designed the backend architecture and contributed a fair amount of backend Node.js code. This backend system had to navigate those security challenges to pass data from an internal datacenter through the public cloud and onto employee's personal devices safely.
 
 ## Highly Available API's at Liberty Mutual
 
-
-You might not know that Liberty Mutual is not just Car and Home Insurance like the ads you see on Youtube. They have many different business units, including a huge commercial insurance business. You also might not know how big they are: They are a Fortune 100 (yes, 100 - not 500) company with over 40 billion dollars in revenue a year with over 40,000 employees at the time I was working there.
+Liberty Mutual is not just Car and Home Insurance like the ads you see on Youtube. They have many different business units, including a huge commercial insurance business. You also might not know how big they are: They are a Fortune 100 (yes, 100 - not 500) company with over 40 billion dollars in revenue a year with over 40,000 employees at the time I was working there.
 
 I worked on a team that supported dozens of mission critical API's for Liberty Mutual.
 
