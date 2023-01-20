@@ -2,19 +2,13 @@
 id: 94
 title: 'Breathing New Life Into an Old Macbook with an SSD and OS X Yosemite'
 date: '2015-01-02T16:23:11+00:00'
-author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=94'
 permalink: /breathing-new-life-into-an-old-macbook-with-an-ssd-and-os-x-yosemite/
-background: '/img/clean/bg-post.jpg'
 categories:
-    - hardware
-    - mac
+    - misc
 tags:
-    - laptop
     - mac
-    - 'os x'
-    - yosemite
 ---
 
 My Christmas gift to myself this year was to install a new Solid State hard drive (SSD) in my old mid-2009 Macbook Pro.  Wow, what a difference!  The most honkin' app I run, Adobe Lightroom, now takes about 5 seconds to load, compared with what felt like an eternity on my old hard drive.

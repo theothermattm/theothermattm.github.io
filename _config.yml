@@ -39,13 +39,31 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-archives
 
 # console theme vars
 header_pages:
   - about.md
+  - portfolio.md
 
 paginate:           10
 paginate_path:      "/posts/page:num/"
+page_exerpts: true
+
+defaults:
+ - 
+  scope:
+     path: ""
+  values: 
+     background: '/img/clean/bg-post.jpg'
+     author: 'Matt'
+
+jekyll-archives:
+  enabled: ['categories', 'tags']
+  layout: archive
+  permalinks:
+    tag: '/posts/tag/:name/'
+    category: '/posts/category/:name/'
 
 # console theme vars
 
@@ -57,7 +75,9 @@ paginate_path:      "/posts/page:num/"
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - LICENSE.md
+  - README.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

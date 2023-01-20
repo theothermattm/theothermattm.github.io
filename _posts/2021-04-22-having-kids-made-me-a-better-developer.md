@@ -2,11 +2,9 @@
 id: 271
 title: 'Having Kids Made Me A Better Developer'
 date: '2021-04-22T14:03:16+00:00'
-author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=271'
 permalink: /having-kids-made-me-a-better-developer/
-background: '/img/clean/bg-post.jpg'
 categories:
     - career
 ---

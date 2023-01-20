@@ -35,6 +35,7 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # plugins
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
+gem "jekyll-archives"
 
 # theme
 #gem "minima", "~> 2.5"

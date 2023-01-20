@@ -2,11 +2,9 @@
 id: 235
 title: 'The Goodwill Budget'
 date: '2020-12-22T15:10:12+00:00'
-author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=235'
 permalink: /the-goodwill-budget/
-background: '/img/clean/bg-post.jpg'
 categories:
     - career
     - management

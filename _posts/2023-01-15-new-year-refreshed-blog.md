@@ -1,12 +1,11 @@
 ---
 title: 'New Year, Refreshed Blog'
 date: '2023-01-15'
-author: theothermattm
 layout: post
 permalink: /new-year-refreshed-blog
-background: '/img/clean/bg-post.jpg'
 categories:
     - coding
+    - career
 tags:
     - writing
 ---

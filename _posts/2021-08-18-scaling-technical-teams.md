@@ -1,10 +1,8 @@
 ---
 title: 'Scaling Technical Teams'
 date: '2021-08-18'
-author: theothermattm
 layout: post
 permalink: /scaling-technical-teams
-background: '/img/clean/bg-post.jpg'
 categories:
     - management
 tags:

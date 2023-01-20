@@ -2,11 +2,9 @@
 id: 50
 title: "I'm a Computer Science Dropout"
 date: '2021-01-13T19:42:44+00:00'
-author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=50'
 permalink: /im-a-computer-science-dropout/
-background: '/img/clean/bg-post.jpg'
 categories:
     - career
 tags:

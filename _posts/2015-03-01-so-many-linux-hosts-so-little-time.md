@@ -2,13 +2,11 @@
 id: 131
 title: 'So many Linux hosts, so little time'
 date: '2015-03-01T11:10:09+00:00'
-author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=131'
 permalink: /so-many-linux-hosts-so-little-time/
-background: '/img/clean/bg-post.jpg'
 categories:
-    - linux
+    - cloud
 tags:
     - linux
     - ssh

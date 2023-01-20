@@ -2,19 +2,14 @@
 id: 126
 title: "Are you still clicking? There's gotta be a better way!"
 date: '2015-02-22T20:50:09+00:00'
-author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=126'
 permalink: /are-you-still-clicking/
-background: '/img/clean/bg-post.jpg'
 categories:
     - coding
-    - linux
 tags:
     - 'command line'
-    - infomercials
     - linux
-    - unix
 ---
 
 The first part of this post is in the form of a screenplay for an infomercial:

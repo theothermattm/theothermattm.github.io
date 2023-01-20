@@ -2,11 +2,9 @@
 id: 226
 title: 'Software Engineering Culture'
 date: '2019-04-13T00:57:36+00:00'
-author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=226'
 permalink: /software-engineering-culture/
-background: '/img/clean/bg-post.jpg'
 categories:
     - management
 tags:

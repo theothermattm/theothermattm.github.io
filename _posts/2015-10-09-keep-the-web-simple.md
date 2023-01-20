@@ -2,13 +2,11 @@
 id: 159
 title: "Don't Forget:  Keep the Web Simple"
 date: '2015-10-09T00:26:20+00:00'
-author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=159'
 permalink: /keep-the-web-simple/
-background: '/img/clean/bg-post.jpg'
 categories:
-    - coding
+    - web
 tags:
     - web
 ---

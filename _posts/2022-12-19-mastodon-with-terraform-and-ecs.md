@@ -1,12 +1,11 @@
 ---
 title: 'Why and how to create your own Mastodon server on AWS with Terraform'
 date: '2022-12-19'
-author: theothermattm
 layout: post
 permalink: /mastodon-with-terraform-and-ecs
-background: '/img/clean/bg-post.jpg'
 categories:
     - coding
+    - cloud
 tags:
     - cloud
     - aws

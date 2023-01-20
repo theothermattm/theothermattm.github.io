@@ -19,6 +19,8 @@ One of the more public faces of this is DEPT®'s [Engineering Soapboxes](https:/
 
 You can read a [full explanation of what they are here](https://engineering.deptagency.com/introducing-web-blueprint-our-practices-for-web-development), but the gist is an open source volume of seasoned developers' takes on how to build software. I was responsible for bootstrapping them and getting the team to contribute.  I contributed a few soapbox artcles as well.
 
+You can also read my writing on [DEPT®'s Engineering Blog](https://engineering.deptagency.com/author/matt-merrill).
+
 ## The MITRE@Work Mobile Application
 
 I was an architect and product manager of a mobile application used by the entire workforce of the [MITRE Corporation](https://www.mitre.org/), which at the time was over 11,000 employees.

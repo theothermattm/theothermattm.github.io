@@ -2,11 +2,9 @@
 id: 183
 title: 'Where to start with Node.js as a Java developer in 2017'
 date: '2017-01-07T21:11:57+00:00'
-author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=183'
 permalink: /where-to-start-with-node-in-2017/
-background: '/img/clean/bg-post.jpg'
 categories:
     - coding
 tags:

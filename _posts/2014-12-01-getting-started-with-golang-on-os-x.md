@@ -2,11 +2,9 @@
 id: 13
 title: 'Getting started with Golang on OS X'
 date: '2014-12-01T15:20:15+00:00'
-author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=13'
 permalink: /getting-started-with-golang-on-os-x/
-background: '/img/clean/bg-post.jpg'
 categories:
     - coding
 tags:

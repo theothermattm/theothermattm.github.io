@@ -2,11 +2,9 @@
 id: 7
 title: 'On Learning Vim: False Starts, Pain, and Overcoming the Hump'
 date: '2014-12-21T17:58:57+00:00'
-author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=7'
 permalink: /on-learning-vim-false-starts-pain-and-how-to-get-past-it/
-background: '/img/clean/bg-post.jpg'
 categories:
     - coding
 tags:

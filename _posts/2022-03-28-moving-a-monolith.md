@@ -1,12 +1,10 @@
 ---
 title: 'Moving a Monolith'
 date: '2022-03-28'
-author: theothermattm
-layout: post
 permalink: /moving-a-monolith
-background: '/img/clean/bg-post.jpg'
 categories:
     - coding
+    - cloud
 tags:
     - architecture
     - microservices

@@ -2,13 +2,12 @@
 id: 214
 title: 'Show, don’t tell'
 date: '2017-11-18T11:00:36+00:00'
-author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=214'
 permalink: /show-dont-tell/
-background: '/img/clean/bg-post.jpg'
 categories:
     - career
+    - management
 ---
 
 During my first few years working in software, I had the opportunity to work with a mentor who had the best approach to introducing new ideas that I've seen. The best way I can sum up the approach would be "Show, don't tell. And don't be a jerk."

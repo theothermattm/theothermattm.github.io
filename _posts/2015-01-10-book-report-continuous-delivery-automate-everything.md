@@ -2,13 +2,12 @@
 id: 78
 title: 'Book Report: "Continuous Delivery" Automate Everything!'
 date: '2015-01-10T21:04:03+00:00'
-author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=78'
 permalink: /book-report-continuous-delivery-automate-everything/
-background: '/img/clean/bg-post.jpg'
 categories:
     - coding
+    - cloud
 tags:
     - 'book report'
     - books

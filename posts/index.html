@@ -4,15 +4,28 @@ title: Posts
 background: '/img/clean/bg-post.jpg'
 ---
 
+<h1>Categories</h1>
+
+
+<section class="post-categories">
+  <ul class="category-list">
+    {% for category in site.categories %}
+      <li><a href="/posts/category/{{category[0]}}">{{category[0]}}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<h1>Recent Posts</h1>
+
 {% for post in paginator.posts %}
 
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-    <h2 class="post-title">{{ post.title }}</h2>
+    <h3 class="post-title">{{ post.title }}</h3>
     {% if post.subtitle %}
-    <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+    <h4 class="post-subtitle">{{ post.subtitle }}</h4>
     {% else %}
-    <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+    <h4 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h4>
     {% endif %}
   </a>
   <p class="post-meta">Posted by
@@ -21,7 +34,7 @@ background: '/img/clean/bg-post.jpg'
     {% else %}
     {{ site.author }}
     {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }}
+    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
   </p>
 </article>
 

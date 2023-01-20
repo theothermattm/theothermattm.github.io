@@ -2,11 +2,9 @@
 id: 277
 title: 'Announcing My New Business'
 date: '2021-04-01T12:53:00+00:00'
-author: theothermattm
 layout: post
 guid: 'https://code.theothermattm.com/?p=277'
 permalink: /announcing-my-new-business/
-background: '/img/clean/bg-post.jpg'
 categories:
     - coding
 ---
