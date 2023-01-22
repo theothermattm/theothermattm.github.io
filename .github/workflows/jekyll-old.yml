@@ -1,4 +1,4 @@
-name: Build and Deploy to Github Pages
+name: Legacy Action Deploy
 
 on:
   workflow_dispatch:
