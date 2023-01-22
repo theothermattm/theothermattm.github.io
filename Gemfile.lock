@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/netrics/jekyll-remote-include.git
+  revision: a230e824783d5c6783235d5a05bff17d6bb11324
+  specs:
+    jekyll-remote-include (1.0.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -78,6 +84,7 @@ DEPENDENCIES
   jekyll-archives
   jekyll-feed (~> 0.12)
   jekyll-paginate
+  jekyll-remote-include!
   jekyll-sitemap
   jekyll-theme-clean-blog
   tzinfo (>= 1, < 3)

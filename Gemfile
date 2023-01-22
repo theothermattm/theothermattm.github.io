@@ -16,6 +16,10 @@ gem "jekyll", "~> 4.3.1"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-archives"
+  gem 'jekyll-remote-include', :github => 'netrics/jekyll-remote-include'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -33,9 +37,6 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # plugins
-gem "jekyll-paginate"
-gem "jekyll-sitemap"
-gem "jekyll-archives"
 
 # theme
 #gem "minima", "~> 2.5"
