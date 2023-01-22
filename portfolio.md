@@ -21,6 +21,8 @@ You can read a [full explanation of what they are here](https://engineering.dept
 
 You can also read my writing on [DEPT®'s Engineering Blog](https://engineering.deptagency.com/author/matt-merrill).
 
+Also, here's one of the open source projects I worked on, [Terraform scripts to setup Mastodon on AWS Elastic Container Service](https://github.com/deptagency/mastodon-terraform-aws-ecs).
+
 ## The MITRE@Work Mobile Application
 
 I was an architect and product manager of a mobile application used by the entire workforce of the [MITRE Corporation](https://www.mitre.org/), which at the time was over 11,000 employees.
