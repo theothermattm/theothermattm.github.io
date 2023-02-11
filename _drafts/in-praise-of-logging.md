@@ -16,7 +16,7 @@ Even though in my day to day job, I'm not coding as much as I used to, I still _
 
 One thing I've noticed in the node.js world is a general lack of appreciation or knowledge of a good logging framework. This is starting to change with things like [NestJS](https://docs.nestjs.com/techniques/logger) on the backend providing an opinionated way to do this.  
 
-In this post, I'm going to outline the good practices I've learned along the way and (hopefully) convince you why and how you should love 🪵 logging 🪵 and why you should use a logging framework immediately isntead of plain old `console` statements.
+In this post, I'm going to outline some good practices I've learned along the way and (hopefully) convince you why and how you should love 🪵 logging 🪵 and why you should use a logging framework immediately isntead of plain old `console` statements.
 
 # Lessons Learned
 
@@ -126,6 +126,13 @@ And separately I can get my errors in a file that gets written out.
 I can dial logging levels and even separate outputs for individual files/classes.
 
 TODO can you do this in any node frameworks?
+I haven't found any Javascript frameworks that allow this type of customizability, however, some logging frameworks have the concept of categories or child loggers that allow you to do something _similar_.
+
+Take this example in Pino:
+
+```
+
+```
 
 # General Best Practices
 
@@ -248,6 +255,61 @@ The default console logging makes this extremely hard.
 # What I Recommend
 
 
+# Performance
+
+Now how about performance?  Pino claims to be super fast.  Let's find out!
+
+To test, I ran a loop of 100,000 simple statements like this (with varying syntax for each logging system):
+
+```js
+  const numberOfLoops = 100000
+  let startTime = new Date();
+  for(let i = 0; i <= numberOfLoops ; i++) {
+    console.info(`Test Log Message ${i}`)
+  }
+  let endTime = new Date();
+
+  console.info(`Time to execute ${numberOfLoops} log messages: ${(endTime-startTime) / 1000} seconds`);
+```
+
+To get a better sample, I ran the node process using the GNU `time` command 20 times each using [a bash script](https://github.com/theothermattm/node-logging-examples/blob/main/scripts/perf-test.sh). I purposely wrote the output to a file so my tty was not the bottleneck. This is a sample of the output of each command in the output files:
+
+```
+/usr/bin/time -a -o pino-times-output.txt node index.js -f pino -p >> pino-output.txt
+<< snip ... >>
+{"level":30,"time":1675893207318,"pid":54614,"hostname":"Matts-16-Macbook-Pro.local","msg":"Time to execute 100000 log messages: 517 ms"}
+        0.62 real         0.39 user         0.15 sys
+```
+
+This was running on my Intel 2.6ghz 6 core i7 Macbook with 16gb of ram.
+
+Of course, this probably isn't a perfect test, but let's see what happened:
+
+![Results in a Table](https://user-images.githubusercontent.com/392778/218269979-b37fd7bd-88a8-40a2-b73d-7643c14be413.png)
+
+*And it's console winning the race by a nose!*
+
+Let's take a deeper look.
+
+## Log4js
+
+The laggard in the race was log4js, coming in almost 200ms longer than any other framework at an average of 1.63 seconds.
+
+TODO insert some ideas as to why
+
+## Winston
+
+Second to last was winston, doing slightly better than Log4js at 1.44 seconds.
+
+TODO insert some ideas as to why
+
+## Pino
+
+As promised, Pino did very well, coming in only about 40 millseconds faster than console logging. And that's with _syncronous_ logging, not [async logging](https://getpino.io/#/docs/asynchronous), which offloads logging onto worker threads to make logging a non-blocking operation, which is awesome. Of course, the whole command would likely take just as long with the worker thread, but it's nice to know that for an online application your logging won't be blocking your application's threads.
+
+## Console
+
+Probably not a surprise, but good old console.log came in first by about 40 milliseconds. Given that there's nothing else happening with the logs, this makes total sense.  If performance is your concern, console.log can't be beat!  But, since it's not nearly as customizable, there are some tradeoffs.
 
 # What About Logging in the Frontend Client?
 
