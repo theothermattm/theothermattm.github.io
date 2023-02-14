@@ -91,7 +91,7 @@ There are affordable hosted Mastodon server offerings, but really part of this e
 
 If you have the knowledge, it makes a lot of sense to stand up Mastodon yourself on cloud infrastructure instead of relying on a hosting provider: You can be assured you're in control of your data and treat Mastodon just like any other app you develop. It's also advantageous to be able to really tweak your cloud resources to your number of users to save money or scale up.  whereas hosting providers charge for the [price of Mastohost is \$89 a month for approximately 2000 users](https://masto.host/pricing/), and the price for [toot.io's 1000 user plan is \$89 a month](https://toot.io/mastodon_hosting.html#pricing).  Also, as of this writing, Mastohost isn't even accepting new customers according to their page.  That's kinda important especially with the recent influx of Mastodon users.
 
-As for cost, I'm anticipating it will be a wash compared with hosting providers.  The AWS estimate for our first month's bill is about $130 but that includes lots of experimentation and also a NAT Gateway, which can be avoided if you'd like to be slightly less secure (exposing your containers publicly, which is generally a no-no).
+~~As for cost, I'm anticipating it will be a wash compared with hosting providers.  The AWS estimate for our first month's bill is about $130 but that includes lots of experimentation and also a NAT Gateway, which can be avoided if you'd like to be slightly less secure (exposing your containers publicly, which is generally a no-no).~~ See my update at the end of the article. It may be more cost-effective to use one of these services unless you need to tightly control your infrastructure!
 
 I'm most familiar with AWS and a . big fan of containerization, so I thought I might go in that direction.  It helps that Mastodon has [official Docker Images](https://hub.docker.com/r/tootsuite/mastodon)! Finally, I knew if I was going to go with AWS, I wanted to use an Infrastructure as Code (IaC) tool so that I could share the setup with the world, and you, dear reader.  I'm most familiar with [Terraform](https://www.terraform.io/) so I chose that.
 
@@ -110,5 +110,9 @@ I hit a couple bumps in the road making changes to container definitions in ECS 
 I also hit a knowledge wall at one point where messages from other servers were not being received by ours.  I spent a lot of time with networking settings, but in the end, posted a question on the [Mastodon Github discussion forum](https://github.com/mastodon/mastodon/discussions/22310) which was super helpful and pointed me in the right direction.
 
 My biggest challenge was finding high-level information about mastodon's architecture and infrastructure.  Mastodon has all kinds of fantastic documentation about the details of how to set up a server and how to configure it.  They also have great introductory material on how to use and administer Mastodon.  Everything in between is a bit of a black box.  I hope that this post helps someone else fill in those gaps.
+
+_Update 2/2023:_ The cost for the past couple of months ended up being about $170 a month! The majority of that was (surprisingly) the NAT Gateway to keep the containers isolated from the public internet.  This could be avoided by allowing containers to be accessed through the internet. We also ended up dialing back the RDS instance size to save a bit.
+
+![Snapshot of AWS Charges](https://user-images.githubusercontent.com/392778/218801680-45238635-ed8f-4ef4-83c3-6454c8ed13ff.png)
 
 _I wrote the original version of this post for my employer, [DEPT® Agency](https://engineering.deptagency.com), you can view it [here](https://engineering.deptagency.com/create-your-own-mastodon-server-on-aws-with-terraform)_
