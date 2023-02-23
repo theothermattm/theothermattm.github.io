@@ -1,4 +1,3 @@
-
 ---
 title: 'In Praise Of Logging (A Node.js/Javascript Logging Guide)'
 date: '2023-02-23'
@@ -20,7 +19,7 @@ I'll also show by example what some of the most popular node logging libraries d
 I am going to be referring to code snippets and output from a sample project I put together called [node-logging-examples](https://github.com/theothermattm/node-logging-examples).  You can run this project over on [Replit](https://replit.com/@theothermattm/node-logging-examples#README.md) by using the "Shell" button at the bottom right.
 # Lessons from the Frontline - Aka "Why should I listen to this guy?"
 
-I've supported several server side applications. Including being on call for those applications. When you get woken up in the middle of the night for an alert, you want to make sure that your logs are watertight, otherwise, you'll be water_logged_ (GET IT!?). So watertight you can read them squinting in a dreamy haze! I know what to do, and probably more importantly what not to do.
+I've supported several server side applications. Including being on call for those applications. When you get woken up in the middle of the night for an alert, you want to make sure that your logs are watertight, otherwise, you'll be water _logged_ (GET IT!?). So watertight you can read them squinting in a dreamy haze! I know what to do, and probably more importantly what not to do.
 
 It's also worth knowing that I spent a lot of my career in the Java world (though not recently). Since this post is targeted at Javascript developers, reserve your judgment when I say: Java does logging _very_ well. There are several battle-tested libraries that allow for out of the box ease, as well as endless customizability.
 
@@ -449,13 +448,9 @@ Let's take a deeper look.
 
 The laggard in the race was log4js, coming in almost 200ms longer than any other framework at an average of 1.54 seconds.
 
-TODO insert some ideas as to why
-
 ## The middle tier
 
 Second to last was Bunyan, doing slightly better than Log4js at 1.44 seconds. Third to last was Winston at 1.42 seconds, then LogLevel at 1.38 seconds.
-
-TODO insert some ideas as to why
 
 ## Runner Up: Pino
 
@@ -464,42 +459,3 @@ As promised, Pino did very well, coming in only about 80 milliseconds slower tha
 ## Console
 
 Probably not a surprise, but good old console.log came in first by about 80 milliseconds. Given that there's nothing else happening with the logs, this makes total sense.  If performance is your concern, console.log can't be beat!  But, since it's not nearly as customizable, there are plenty of tradeoffs to consider.
-
-# What About Logging in the Frontend Client?
-
-By [Jake Rainis](TODO)
-
-Historically, it could be argued this sort of complexity on the server is far greater than on the client since the front-end has traditionally been more responsible for layout and aesthetic than it has for business logic. However, the behavioral complexity of modern front-end applications continues to increase, particularly in framework-driven front-ends such as React, Angular, or Vue. And depending on the context of how the front-end application operates functionally, logging mechanisms could provide a great deal of insight into behavior resulting in an easier way to identify and isolate bugs.  \
-
-So, where does that leave us on the front-end?
-
-Of course, we all know that we can drop `console.log`s anywhere we please to debug an issue during development, but this isn’t a mature solution. These transient log statements are isolated to a single user’s browser session, and then they’re gone forever. Front-end applications run in the browser and don't have the same luxuries as applications running on a server where events can be captured. \
-
-## What About My NextJS App?
-
-You might be wondering about full-stack frameworks such as a [Next](https://nextjs.org/), [Remix](https://remix.run/), or [Nuxt](https://nuxtjs.org/). These too run on a Node server, so they _do _enable logging solutions… But only on the server-side aspects of the application. 
-
-For example, let’s consider a Next application that uses the [Pino](https://github.com/pinojs/pino) library ([Next recommends Pino](https://nextjs.org/docs/going-to-production#logging)). Dropping a Pino log within a Next API route, a middleware, or even in one of Next’s server helpers such as `[getServerSideProps](https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props)` will result in the type of log we’re after here. On the other hand, dropping a Pino log into one of the application's React components would _only_ result in a log to the browser's console. Once again, this is helpful for debugging throughout the development cycle, but it doesn’t help engineers when the application is running in production since the log is never captured!
-
-## Front-End Logging Solutions
-
-As you’ve likely surmised by now, we can’t effectively capture a log from a client-side application without some additional effort. But it is entirely possible! After all, this is a common conundrum for application developers.
-
-The gist of front-end logging lies in sending the log events _somewhere_ to be captured and this could even be accomplished through a custom hand-rolled solution that sends events to your back-end (though, be cautious of the overhead this might introduce). However, there are also third-party solutions out there to make the job easier. 
-
-[Sentry](https://sentry.io/welcome/) is perhaps the most battle-tested error and performance monitoring service that plugs seamlessly into [any application](https://sentry.io/platforms/) — even front-end applications. But there are others too, like [BugSnag](https://www.bugsnag.com/) and [Logflare](https://logflare.app/) (recently acquired by [Supabase](https://supabase.com/)). 
-
-One aspect of the front-end that we don’t have to worry as much about when monitoring a back-end are the browsers themselves. _What browser/version is the end-user viewing our app from? Oh jeez… what if it’s Internet Explorer? [Just kidding](https://www.wired.com/story/microsoft-internet-explorer-is-finally-really-fully-dead/).  What device are they on? What user flow did they follow to trigger this event/error? _One one the great selling points about the third-party services listed above is that they capture this information. This additional context can make bug reproduction and squashing much easier for application engineers.
-
-These tools will come with a price tag when used at scale, but all have generous free tiers that might be sufficient for smaller teams and applications. And since they also work for back-end technologies, logging for all portions of an application can be captured, evaluated, and triaged in one place. 
-
-## Does Every Front-End Need Logging?
-
-In general, logging and monitoring is a best practice and should not be an afterthought when it comes to a back-end application. After all, it’s simple and quick to implement. 
-
-But is it absolutely necessary on the front-end? Well, any front-end app would benefit, but the right answer is subjective. A larger and/or more complex front-end that manages a good deal of business logic would be a better candidate than a relatively static front-end that doesn’t have much complex functionality — particularly if it’s well-tested. Ultimately, it should be a discussion with the product and engineering team to determine what monitoring solutions make sense for your application. \
-
-Speaking of, we here at DEPT® have quite a bit of experience in the realm of application monitoring. We’d love to chat more about it, so don’t hesitate to reach out!
-
-
-_The original version of this post appeared on [DEPT® Agency's Engineering Blog](https://engineering.deptagency.com/in-praise-of-logging-a-node-js-javascript-logging-guide)
