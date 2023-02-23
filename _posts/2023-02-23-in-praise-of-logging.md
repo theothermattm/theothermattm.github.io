@@ -1,4 +1,3 @@
-
 ---
 title: 'In Praise Of Logging (A Node.js/Javascript Logging Guide)'
 date: '2023-02-23'
