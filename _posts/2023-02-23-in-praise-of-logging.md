@@ -500,3 +500,6 @@ In general, logging and monitoring is a best practice and should not be an after
 But is it absolutely necessary on the front-end? Well, any front-end app would benefit, but the right answer is subjective. A larger and/or more complex front-end that manages a good deal of business logic would be a better candidate than a relatively static front-end that doesn’t have much complex functionality — particularly if it’s well-tested. Ultimately, it should be a discussion with the product and engineering team to determine what monitoring solutions make sense for your application. \
 
 Speaking of, we here at DEPT® have quite a bit of experience in the realm of application monitoring. We’d love to chat more about it, so don’t hesitate to reach out!
+
+
+_The original version of this post appeared on [DEPT® Agency's Engineering Blog](https://engineering.deptagency.com/in-praise-of-logging-a-node-js-javascript-logging-guide)
