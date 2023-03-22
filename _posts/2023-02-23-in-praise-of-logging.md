@@ -459,3 +459,5 @@ As promised, Pino did very well, coming in only about 80 milliseconds slower tha
 ## Console
 
 Probably not a surprise, but good old console.log came in first by about 80 milliseconds. Given that there's nothing else happening with the logs, this makes total sense.  If performance is your concern, console.log can't be beat!  But, since it's not nearly as customizable, there are plenty of tradeoffs to consider.
+
+**NOTE:** This article was originally written for my employer, DEPT® Agency, you can find the original article on [DEPT®'s engineering blog](https://engineering.deptagency.com/in-praise-of-logging-a-node-js-javascript-logging-guide).
