@@ -20,8 +20,9 @@ I lean towards Backend/API/serverside development, and Cloud Engineering/Platfor
 
 These days, I manage engineers and do architecture and technical lead work. I love the combination of helping people grow and still being involved deeply with technology.
 
-You can learn more about things I've built in my [Portfolio]('/portfolio'), on my [LinkedIn](https://www.linkedin.com/in/theothermattm/) and my [Github](https://github.com/theothermattm)
+You can learn more about things I've built in my [Portfolio]('/portfolio'), on my [LinkedIn](https://www.linkedin.com/in/theothermattm/) and my [Github](https://github.com/theothermattm). You can find out more details about my work background [on my resume](/assets/merrill_matthew-resume-external-20240510-manager-redacted.pdf).
 
-I'm also a firm believer in the open web and open source software. That's why I have an old fashioned blog on the web instead of a medium account. 
+I'm also a firm believer in the open web and open source software. That's why I have an old fashioned blog on the web instead of a medium account.
+
 
 I work to live, but I also love my work. When living, I'm a dad to two kids and a husband. I run a lot. When I have time I play guitar. I also enjoy photography but don't get to do it much beyond snapping photos of the family on the iPhone. You can see some of my older photos [on Flickr](http://flickr.com/theothermattm), though.
