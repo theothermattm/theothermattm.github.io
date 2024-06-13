@@ -1,0 +1,169 @@
+{
+  "employeeId": "1814",
+  "email": "matt.merrill@deptagency.com",
+  "team": "DPUS",
+  "country": "US",
+  "name": "Matt Merrill",
+  "image72": "https://avatars.slack-edge.com/2023-04-21/5133802607351_4a475497565a1218ba67_72.jpg",
+  "image192": "https://avatars.slack-edge.com/2023-04-21/5133802607351_4a475497565a1218ba67_192.jpg",
+  "image512": "https://avatars.slack-edge.com/2023-04-21/5133802607351_4a475497565a1218ba67_512.jpg",
+  "languages": [
+    {
+      "id": 2,
+      "name": "JavaScript",
+      "type": "language",
+      "level": 3,
+      "nameWithLevel": "JavaScript::3"
+    },
+    {
+      "id": 3,
+      "name": "TypeScript",
+      "type": "language",
+      "level": 2,
+      "nameWithLevel": "TypeScript::2"
+    },
+    {
+      "id": 6,
+      "name": "Node.js",
+      "type": "language",
+      "level": 3,
+      "nameWithLevel": "Node.js::3"
+    },
+    {
+      "id": 7,
+      "name": "Python",
+      "type": "language",
+      "level": 2,
+      "nameWithLevel": "Python::2"
+    },
+    {
+      "id": 12,
+      "name": "Java",
+      "type": "language",
+      "level": 3,
+      "nameWithLevel": "Java::3"
+    },
+    {
+      "id": 22,
+      "name": "Cypress",
+      "type": "language",
+      "level": 1,
+      "nameWithLevel": "Cypress::1"
+    },
+    {
+      "id": 24,
+      "name": "Terraform",
+      "type": "language",
+      "level": 2,
+      "nameWithLevel": "Terraform::2"
+    },
+    {
+      "id": 52,
+      "name": "SQL",
+      "type": "language",
+      "level": 2,
+      "nameWithLevel": "SQL::2"
+    }
+  ],
+  "platforms": [
+    {
+      "id": 9,
+      "name": "AWS",
+      "type": "platform",
+      "level": 2,
+      "nameWithLevel": "AWS::2"
+    },
+    {
+      "id": 111,
+      "name": "AWS Lambda",
+      "type": "platform",
+      "level": 2,
+      "nameWithLevel": "AWS Lambda::2"
+    },
+    {
+      "id": 128,
+      "name": "Elasticsearch",
+      "type": "platform",
+      "level": 2,
+      "nameWithLevel": "Elasticsearch::2"
+    },
+    {
+      "id": 325,
+      "name": "Reddit",
+      "type": "platform",
+      "level": 3,
+      "nameWithLevel": "Reddit::3"
+    }
+  ],
+  "linkedInProfile": "https://www.linkedin.com/in/theothermattm/",
+  "jobTitle": "Director of Engineering",
+  "skillIds": null,
+  "dataPlatforms": [
+    {
+      "id": 160,
+      "name": "MySQL",
+      "type": "dataPlatform",
+      "level": 2,
+      "nameWithLevel": "MySQL::2"
+    },
+    {
+      "id": 161,
+      "name": "PostGreSQL",
+      "type": "dataPlatform",
+      "level": 2,
+      "nameWithLevel": "PostGreSQL::2"
+    },
+    {
+      "id": 162,
+      "name": "MongoDB",
+      "type": "dataPlatform",
+      "level": 2,
+      "nameWithLevel": "MongoDB::2"
+    },
+    {
+      "id": 163,
+      "name": "Oracle RDBMS",
+      "type": "dataPlatform",
+      "level": 2,
+      "nameWithLevel": "Oracle RDBMS::2"
+    },
+    {
+      "id": 66,
+      "name": "Google Analytics",
+      "type": "dataPlatform"
+    }
+  ],
+  "inboundMarketings": [],
+  "mediaPlatforms": [
+    {
+      "id": 100,
+      "name": "Tiktok",
+      "type": "mediaPlatform",
+      "level": 1,
+      "nameWithLevel": "Tiktok::1"
+    }
+  ],
+  "spokenLanguages": [
+    {
+      "id": 112,
+      "name": "English",
+      "type": "spokenLanguage",
+      "level": 3,
+      "nameWithLevel": "English::3"
+    }
+  ],
+  "githubProfile": "https://github.com/theothermattm",
+  "portfolioLink": "https://myspace.com/tom",
+  "skillLevels": null,
+  "active": null,
+  "creativeExperiences": [
+    {
+      "id": 319,
+      "name": "Kanban",
+      "type": "creativeExperience",
+      "level": 2,
+      "nameWithLevel": "Kanban::2"
+    }
+  ],
+  "objectID": "1814"
+}
