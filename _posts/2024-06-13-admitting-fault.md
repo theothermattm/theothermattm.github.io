@@ -16,7 +16,7 @@ A while back, I was having a conversation with a fellow engineering manager abou
 
 I made my agreement visible by nodding vigorously. My colleague accurately described my reflex in many situations where something goes wrong or I'm being blamed. 
 
-**I call it the "Am I the A\*\*shole? Reflex"** (The AITA? Reflex). There is (somewhat) famous subreddit called [r/AmITheA\*\*hole?](https://www.reddit.com/r/AITA/) where anyone can post about an experience where someone was being an a\*\*hole to them and reflect on the question "...But am I the a\*\*hole here?". The stories range from hilarious to genuinely intriguing, sometimes resulting in thought-provoking responses that cause the poster to realize that they are, indeed, the a**hole.
+**I call it the "Am I the A\*\*shole? Reflex"** (The AITA? Reflex). There is (somewhat) famous subreddit called [r/AmITheA\*\*hole?](https://www.reddit.com/r/AmItheAsshole/) where anyone can post about an experience where someone was being an a\*\*hole to them and reflect on the question "...But am I the a\*\*hole here?". The stories range from hilarious to genuinely intriguing, sometimes resulting in thought-provoking responses that cause the poster to realize that they are, indeed, the a**hole.
 
 My own experience with the AITA? Reflex has been an emotional rollercoaster. For a long, long time, I didn't even think about it. Then, when I became a manager for the first time, I became concerned that this was because of a lack of self-confidence and that this instinct needed to be overcome. 
 
