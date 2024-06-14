@@ -26,7 +26,7 @@ It may take seconds to answer, _"Most definitely, not my fault."_ But if you hav
 
 The last thing you want to do to peers and talent is show that you can't own up to your mistakes. If you give into the fear of admitting fault, you set a toxic example for your organization: shifting blame is the norm. You encourage a culture of covering up mistakes rather than figuring out how to prevent them.
 
-To avoid this, I often ask myself, _"Could I have done something to prevent this?"_ If the answer is yes, I ask, _"Was doing that thing reasonable to expect of yourself?"_
+To avoid this, I often ask myself, _"Could I have done something to prevent this?"_ If the answer is yes, I ask, _"Was doing that thing reasonable to expect of myself?"_
 
 Say something immediately if it was your fault and it was reasonable to prevent it. If you know what could have prevented it, say it. Say what you'll do to prevent it from happening again, or say that you'll follow up with that information soon.
 
