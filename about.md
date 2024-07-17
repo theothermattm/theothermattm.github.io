@@ -19,7 +19,7 @@ I lean towards Backend, Systems, and Cloud Engineering. I'm also a database nerd
 
 These days, I manage engineers, do architecture, and lead technical projects. I love helping people grow while remaining deeply involved with technology.
 
-You can learn more about what I've built in my [Portfolio](/portfolio), on my [LinkedIn](https://www.linkedin.com/in/theothermattm/), and on my [Github](https://github.com/theothermattm). You can also find out more details about my work background [on my resume](/assets/merrill_matthew-resume-external-20240510-manager-redacted.pdf).
+You can learn more about what I've built in my [Portfolio](/portfolio), on my [LinkedIn](https://www.linkedin.com/in/theothermattm/), and on my [Github](https://github.com/theothermattm). You can also find out more details about my work background [on my resume](/assets/resume-latest.pdf).
 
 I'm also a firm believer in the open web and open-source software. That's why I have an old-fashioned blog on the open web instead of a medium account.
 

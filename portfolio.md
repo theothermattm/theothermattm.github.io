@@ -9,7 +9,7 @@ background: '/img/skyline.webp'
 
 I've been in software since 2005. I've worked on lots of things, but I can't show you most of them because they're behind corporate firewalls, require special access, or I'm legally not allowed to share them. 
 
-You can see a more traditional resume [here](/assets/merrill_matthew-resume-external-20240510-manager-redacted.pdf) and on [LinkedIn](https://linkedin.com/u/theothermattm). But, there are a few things that I'm very proud to share with the world, which are outlined here with more context.
+You can see a more traditional resume [here](/assets/resume-latest.pdf) and on [LinkedIn](https://linkedin.com/u/theothermattm). But, there are a few things that I'm very proud to share with the world, which are outlined here with more context.
 
 ## Creating an Engineering-Centric Culture at DEPT® Agency
 
