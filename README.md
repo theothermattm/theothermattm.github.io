@@ -10,6 +10,7 @@ Install prereqs:
 
 ```
 gem install jekyll bundler
+bundler install
 ```
 
 Then serve it:
