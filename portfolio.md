@@ -11,21 +11,21 @@ I've been in software since 2005. I've worked on lots of things, but I can't sho
 
 You can see a more traditional resume [here](/assets/resume-latest.pdf) and on [LinkedIn](https://linkedin.com/u/theothermattm). But, there are a few things that I'm very proud to share with the world, which are outlined here with more context.
 
+## Hosting the Software Engineering Daily podcast
+
+In 2026, I became one of the hosts of the [Software Engineering Daily Podcast](https://softwareengineeringdaily.com/?s=matt+merrill), one of the most established podcsts in the software engineering space for over a decade. 
+
 ## Creating an Engineering-Centric Culture at DEPT® Agency
 
 I've made a lot of software for a lot of clients at [DEPT® Agency](https://deptagency.com) and Rocket Insights, the Boston, MA-based agency I worked for which DEPT® Acquired. Outside of that, I'm most proud of assembling a team of top-notch engineers and creating an engineering-centric culture that attracted and retained good talent.
 
-One of the more public faces of this is DEPT®'s [Engineering Soapboxes](https://github.com/deptagency/engineering-soapboxes).
+You can read some of my writing on [DEPT®'s Engineering Blog](https://engineering.deptagency.com/author/matt-merrill).
 
-You can read a [full explanation of what they are here](https://engineering.deptagency.com/introducing-web-blueprint-our-practices-for-web-development), but the gist is an open-source volume of seasoned developers' takes on how to build software. I was responsible for bootstrapping them and getting the team to contribute. I contributed a few articles as well.
+## Ship It! Podcast
 
-You can also read my writing on [DEPT®'s Engineering Blog](https://engineering.deptagency.com/author/matt-merrill).
+In the past I hosted DEPT®'s Engineering podcast, [Ship It!](https://shipit.io) where I talked to software engineers about the realities of shipping software.
 
-### Ship It! Podcast
-
-I host and am an interviewer on many episodes of DEPT®'s Engineering podcast, [Ship It!](https://shipit.io). Please give it a listen!
-
-### Open Source 
+## Open Source 
 
 Wherever possible, I try to open-source my work. Here's one of the open source projects I worked on, [Terraform scripts to setup Mastodon on AWS Elastic Container Service](https://github.com/deptagency/mastodon-terraform-aws-ecs).
 
